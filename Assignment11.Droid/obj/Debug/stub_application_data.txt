@@ -1,2 +1,0 @@
-android.app.Application
-Assignment11.Droid.Assignment11.Droid
