@@ -106,4 +106,17 @@ namespace YWWAC.core.ViewModels
                 }
             }
         }
+    }
+
+    //Author: Dongmin Park, n8920281
+    public class SecondViewModel : MvxViewModel
+    {
+    
+    }
+
+    //Author: Huisuk Gyeong, n9230424
+    public class ThirdViewModel : MvxViewModel
+    {
+
+    }
 }
