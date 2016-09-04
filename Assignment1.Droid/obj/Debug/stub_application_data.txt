@@ -1,0 +1,2 @@
+android.app.Application
+Assignment1.Droid.Assignment1.Droid
