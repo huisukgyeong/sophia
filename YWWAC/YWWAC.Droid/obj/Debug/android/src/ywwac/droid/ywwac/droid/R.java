@@ -73,12 +73,46 @@ containing a value of this type.
     public static final class id {
         public static final int MvvmCrossTagId=0x7f040000;
         public static final int MvxBindingTagUnique=0x7f040001;
-        public static final int textView1=0x7f040002;
+        public static final int button1=0x7f040009;
+        public static final int button2=0x7f04000a;
+        public static final int button3=0x7f040020;
+        public static final int calendarView1=0x7f040018;
+        public static final int editText1=0x7f040010;
+        public static final int editText2=0x7f040013;
+        public static final int editText3=0x7f04001b;
+        public static final int editText4=0x7f04001c;
+        public static final int editText5=0x7f04001f;
+        public static final int gallery1=0x7f040002;
+        public static final int gallery2=0x7f040004;
+        public static final int gridView1=0x7f040005;
+        public static final int linearLayout1=0x7f040019;
+        public static final int linearLayout10=0x7f04001d;
+        public static final int linearLayout2=0x7f04000b;
+        public static final int linearLayout3=0x7f04000d;
+        public static final int linearLayout4=0x7f040016;
+        public static final int linearLayout5=0x7f040006;
+        public static final int linearLayout6=0x7f040008;
+        public static final int linearLayout7=0x7f04000e;
+        public static final int linearLayout8=0x7f040011;
+        public static final int linearLayout9=0x7f040015;
+        public static final int textView1=0x7f040003;
+        public static final int textView2=0x7f040007;
+        public static final int textView3=0x7f04000c;
+        public static final int textView4=0x7f04000f;
+        public static final int textView5=0x7f040012;
+        public static final int textView6=0x7f040014;
+        public static final int textView7=0x7f04001a;
+        public static final int textView8=0x7f040017;
+        public static final int textView9=0x7f04001e;
     }
     public static final class layout {
-        public static final int firstview=0x7f030000;
-        public static final int secondview=0x7f030001;
-        public static final int splashscreen=0x7f030002;
+        public static final int foodslayout=0x7f030000;
+        public static final int foodsview=0x7f030001;
+        public static final int foodview=0x7f030002;
+        public static final int measurementsview=0x7f030003;
+        public static final int secondview=0x7f030004;
+        public static final int splashscreen=0x7f030005;
+        public static final int thirdview=0x7f030006;
     }
     public static final class string {
         public static final int ApplicationName=0x7f060001;

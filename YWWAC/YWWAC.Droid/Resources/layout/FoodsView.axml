@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="Food" />
+        <Button
+            android:layout_height="wrap_content"
+            android:text="+"
+            local:MvxBind="Click AddFood" />
+    </GridLayout>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Food"
+        local:MvxBind="Text FoodName" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Food"
+        local:MvxBind="Click AddFoodCommand" />
+    <Mvx.MvxListView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        local:MvxItemTemplate="@layout/foodslayout"
+        local:MvxBind="ItemsSource FoodNames; ItemClick SelectFoodCommand" />
+</LinearLayout>

@@ -3,7 +3,7 @@ using MvvmCross.Core.ViewModels;
 namespace YWWAC.core.ViewModels
 {
     //Author: Leon Tran n9157841
-    public class FirstViewModel : MvxViewModel
+    public class MeasurementsViewModel : MvxViewModel
     {
         private string weight;
         private string height;
@@ -11,35 +11,26 @@ namespace YWWAC.core.ViewModels
         private string heartrate;
         private string bloodPressureMax;
         private string bloodPressureMin;
-        public IMvxCommand SenseWeight { get; private set; }
-        public IMvxCommand SenseHeight { get; private set; }
-        public IMvxCommand SenseWaist { get; private set; }
-        public IMvxCommand SenseHeartrate { get; private set; }
-        public IMvxCommand SenseBloodPressure { get; private set; }
-        public FirstViewModel()
+        public MvxCommand FoodViewCommand
         {
-            SenseWeight = new MvxCommand(() =>
+            get
             {
-                Weight = "52";
-            });
-            SenseHeight = new MvxCommand(() =>
-            {
-                Height = "167";
-            });
-            SenseWaist = new MvxCommand(() =>
-            {
-                Waist = "80";
-            });
-            SenseHeartrate = new MvxCommand(() =>
-            {
-                Heartrate = "60";
-            });
-            SenseBloodPressure = new MvxCommand(() =>
-            {
-                BloodPressureMax = "120";
-                BloodPressureMin = "80";
-            });
+                return new MvxCommand(() => ShowViewModel<FoodsViewModel>());
+            }
         }
+        public MvxCommand GoCommand
+        {
+            get
+            {
+                return new MvxCommand(() => ShowViewModel<ThirdViewModel>());
+            }
+        }
+        public MvxCommand NavFoodView { get; private set; }
+        public MvxCommand SenseWeight { get; private set; }
+        public MvxCommand SenseHeight { get; private set; }
+        public MvxCommand SenseWaist { get; private set; }
+        public MvxCommand SenseHeartrate { get; private set; }
+        public MvxCommand SenseBloodPressure { get; private set; }
         public string Weight
         {
             get { return weight; }
@@ -106,17 +97,47 @@ namespace YWWAC.core.ViewModels
                 }
             }
         }
+        public MeasurementsViewModel()
+        {
+            SenseWeight = new MvxCommand(() =>
+            {
+                Weight = "52";
+            });
+            SenseHeight = new MvxCommand(() =>
+            {
+                Height = "167";
+            });
+            SenseWaist = new MvxCommand(() =>
+            {
+                Waist = "80";
+            });
+            SenseHeartrate = new MvxCommand(() =>
+            {
+                Heartrate = "60";
+            });
+            SenseBloodPressure = new MvxCommand(() =>
+            {
+                BloodPressureMax = "120";
+                BloodPressureMin = "80";
+            });
+        }
     }
 
     //Author: Dongmin Park n8920281
     public class SecondViewModel : MvxViewModel
     {
-    
+
     }
 
     //Author: Huisuk Gyeong n9230424
     public class ThirdViewModel : MvxViewModel
     {
-
+        public MvxCommand GoCommand
+        {
+            get
+            {
+                return new MvxCommand(() => ShowViewModel<SecondViewModel>());
+            }
+        }
     }
 }
