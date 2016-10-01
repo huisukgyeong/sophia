@@ -117,8 +117,8 @@ namespace YWWAC.Droid
 			// aapt resource value: 0x7f04000a
 			public const int button2 = 2130968586;
 			
-			// aapt resource value: 0x7f040020
-			public const int button3 = 2130968608;
+			// aapt resource value: 0x7f040019
+			public const int button3 = 2130968601;
 			
 			// aapt resource value: 0x7f040018
 			public const int calendarView1 = 2130968600;
@@ -129,14 +129,14 @@ namespace YWWAC.Droid
 			// aapt resource value: 0x7f040013
 			public const int editText2 = 2130968595;
 			
-			// aapt resource value: 0x7f04001b
-			public const int editText3 = 2130968603;
-			
 			// aapt resource value: 0x7f04001c
-			public const int editText4 = 2130968604;
+			public const int editText3 = 2130968604;
 			
-			// aapt resource value: 0x7f04001f
-			public const int editText5 = 2130968607;
+			// aapt resource value: 0x7f04001d
+			public const int editText4 = 2130968605;
+			
+			// aapt resource value: 0x7f040020
+			public const int editText5 = 2130968608;
 			
 			// aapt resource value: 0x7f040002
 			public const int gallery1 = 2130968578;
@@ -147,11 +147,11 @@ namespace YWWAC.Droid
 			// aapt resource value: 0x7f040005
 			public const int gridView1 = 2130968581;
 			
-			// aapt resource value: 0x7f040019
-			public const int linearLayout1 = 2130968601;
+			// aapt resource value: 0x7f04001a
+			public const int linearLayout1 = 2130968602;
 			
-			// aapt resource value: 0x7f04001d
-			public const int linearLayout10 = 2130968605;
+			// aapt resource value: 0x7f04001e
+			public const int linearLayout10 = 2130968606;
 			
 			// aapt resource value: 0x7f04000b
 			public const int linearLayout2 = 2130968587;
@@ -195,14 +195,14 @@ namespace YWWAC.Droid
 			// aapt resource value: 0x7f040014
 			public const int textView6 = 2130968596;
 			
-			// aapt resource value: 0x7f04001a
-			public const int textView7 = 2130968602;
+			// aapt resource value: 0x7f04001b
+			public const int textView7 = 2130968603;
 			
 			// aapt resource value: 0x7f040017
 			public const int textView8 = 2130968599;
 			
-			// aapt resource value: 0x7f04001e
-			public const int textView9 = 2130968606;
+			// aapt resource value: 0x7f04001f
+			public const int textView9 = 2130968607;
 			
 			static Id()
 			{
@@ -230,13 +230,16 @@ namespace YWWAC.Droid
 			public const int MeasurementsView = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int SecondView = 2130903044;
+			public const int MenuView = 2130903044;
 			
 			// aapt resource value: 0x7f030005
-			public const int SplashScreen = 2130903045;
+			public const int SecondView = 2130903045;
 			
 			// aapt resource value: 0x7f030006
-			public const int ThirdView = 2130903046;
+			public const int SplashScreen = 2130903046;
+			
+			// aapt resource value: 0x7f030007
+			public const int ThirdView = 2130903047;
 			
 			static Layout()
 			{

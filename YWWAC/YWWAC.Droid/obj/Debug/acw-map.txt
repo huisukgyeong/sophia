@@ -22,6 +22,10 @@ YWWAC.Droid.Views.ThirdView, YWWAC.Droid;md5e874591afe307a907dbc9f87e609340f.Thi
 YWWAC.Droid.Views.ThirdView, YWWAC.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5e874591afe307a907dbc9f87e609340f.ThirdView
 YWWAC.Droid.Views.ThirdView;md5e874591afe307a907dbc9f87e609340f.ThirdView
 ywwac.droid.views.ThirdView;md5e874591afe307a907dbc9f87e609340f.ThirdView
+YWWAC.Droid.Views.MenuView, YWWAC.Droid;md5e874591afe307a907dbc9f87e609340f.MenuView
+YWWAC.Droid.Views.MenuView, YWWAC.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5e874591afe307a907dbc9f87e609340f.MenuView
+YWWAC.Droid.Views.MenuView;md5e874591afe307a907dbc9f87e609340f.MenuView
+ywwac.droid.views.MenuView;md5e874591afe307a907dbc9f87e609340f.MenuView
 MvvmCross.Binding.Droid.Views.MvxBaseListItemView, MvvmCross.Binding.Droid;md5bf0126c95bf9fc0db24c02c9adb4cfa7.MvxBaseListItemView
 MvvmCross.Binding.Droid.Views.MvxBaseListItemView, MvvmCross.Binding.Droid, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null;md5bf0126c95bf9fc0db24c02c9adb4cfa7.MvxBaseListItemView
 MvvmCross.Binding.Droid.Views.MvxBaseListItemView;md5bf0126c95bf9fc0db24c02c9adb4cfa7.MvxBaseListItemView

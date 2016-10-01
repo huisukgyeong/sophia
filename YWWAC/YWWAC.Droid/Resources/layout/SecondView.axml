@@ -164,4 +164,10 @@
             android:id="@+id/calendarView1"
             android:layout_marginLeft="0.0dp" />
     </LinearLayout>
+    <Button
+        android:text="Save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        local:MvxBind="Click MenuViewCommand" />
 </LinearLayout>

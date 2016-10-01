@@ -125,5 +125,6 @@ E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\res\layout\meas
 E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\res\layout\foodsview.xml
 E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\res\layout\foodslayout.xml
 E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\res\layout\foodview.xml
+E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\res\layout\menuview.xml
 E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\YWWAC.Droid.dll.mdb
 E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\bin\Debug\YWWAC.Droid.dll.mdb

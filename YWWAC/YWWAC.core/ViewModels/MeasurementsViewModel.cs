@@ -25,7 +25,6 @@ namespace YWWAC.core.ViewModels
                 return new MvxCommand(() => ShowViewModel<ThirdViewModel>());
             }
         }
-        public MvxCommand NavFoodView { get; private set; }
         public MvxCommand SenseWeight { get; private set; }
         public MvxCommand SenseHeight { get; private set; }
         public MvxCommand SenseWaist { get; private set; }
@@ -126,7 +125,13 @@ namespace YWWAC.core.ViewModels
     //Author: Dongmin Park n8920281
     public class SecondViewModel : MvxViewModel
     {
-
+        public MvxCommand MenuViewCommand
+        {
+            get
+            {
+                return new MvxCommand(() => ShowViewModel<MenuViewModel>());
+            }
+        }
     }
 
     //Author: Huisuk Gyeong n9230424
