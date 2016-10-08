@@ -7,11 +7,14 @@ using System.Windows.Input;
 using YWWAC.core.Services;
 using System.Linq;
 using System.Diagnostics;
+using YWWAC.core.Database;
+using YWWAC.core.Interfaces;
 
 namespace YWWAC.core.ViewModels
 {
     public class FoodsViewModel : MvxViewModel
     {
+        private readonly IFoodsDatabase foodsDatabase;
         private ObservableCollection<FoodSearchResults> foods;
         public ObservableCollection<FoodSearchResults> Foods
         {
@@ -32,10 +35,19 @@ namespace YWWAC.core.ViewModels
             }
         }
         public ICommand SelectFoodCommand { get; private set; }
-        public FoodsViewModel()
+        public FoodsViewModel(IFoodsDatabase foodsDatabase)
         {
+            this.foodsDatabase = foodsDatabase;
             Foods = new ObservableCollection<FoodSearchResults>();
-            SelectFoodCommand = new MvxCommand<FoodSearchResults>(selectedFood => ShowViewModel<FoodViewModel>(selectedFood));
+            SelectFoodCommand = new MvxCommand<FoodSearchResults>(selectedFood =>
+            {
+                SelectFood(selectedFood);
+            });
+        }
+        public async void SelectFood(FoodSearchResults selectedFood)
+        {
+            await foodsDatabase.InsertFood(selectedFood);
+            Close(this);
         }
         public async void SearchFoods(string searchTerm)
         {

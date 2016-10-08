@@ -3,6 +3,9 @@ using MvvmCross.Droid.Platform;
 using MvvmCross.Core.ViewModels;
 using MvvmCross.Platform.Platform;
 using MvvmCross.Platform;
+using YWWAC.core.Interfaces;
+using YWWAC.Droid.Database;
+using YWWAC.core.Database;
 
 namespace YWWAC.Droid
 {
@@ -18,6 +21,12 @@ namespace YWWAC.Droid
         protected override IMvxTrace CreateDebugTrace()
         {
             return new DebugTrace();
+        }
+        protected override void InitializeFirstChance()
+        {
+            Mvx.LazyConstructAndRegisterSingleton<ISqlite, SqliteDroid>();
+            Mvx.LazyConstructAndRegisterSingleton<IFoodsDatabase, FoodsDatabase>();
+            base.InitializeFirstChance();
         }
     }
 }

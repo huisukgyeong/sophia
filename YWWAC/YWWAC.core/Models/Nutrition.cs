@@ -10,7 +10,8 @@ namespace YWWAC.core.Models
     public class Nutrition
     {
         public string item_id { get; set; }
-        public string item_name { get; set; }
+        [JsonProperty("item_name")]
+        public string ItemName { get; set; }
         public string brand_id { get; set; }
         public string brand_name { get; set; }
         [JsonProperty(NullValueHandling=NullValueHandling.Ignore)]
@@ -52,7 +53,7 @@ namespace YWWAC.core.Models
         [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
         public int nf_servings_per_container { get; set; }
         [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
-        public int nf_serving_size_qty { get; set; }
+        public double nf_serving_size_qty { get; set; }
         public string nf_serving_size_unit { get; set; }
         [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
         public int nf_serving_weight_grams { get; set; }

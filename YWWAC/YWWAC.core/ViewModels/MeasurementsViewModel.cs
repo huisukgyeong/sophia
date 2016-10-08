@@ -12,10 +12,10 @@ namespace YWWAC.core.ViewModels
         private string bloodPressureMax;
         private string bloodPressureMin;
         public MvxCommand FoodViewCommand
-        {
+        { 
             get
             {
-                return new MvxCommand(() => ShowViewModel<FoodsViewModel>());
+                return new MvxCommand(() => ShowViewModel<FoodViewModel>());
             }
         }
         public string Weight

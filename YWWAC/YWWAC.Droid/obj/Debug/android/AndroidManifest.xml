@@ -11,8 +11,8 @@
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <activity android:label="View for FoodsViewModel" android:name="md5e874591afe307a907dbc9f87e609340f.FoodsView" />
-    <activity android:label="View for FoodViewModel" android:name="md5e874591afe307a907dbc9f87e609340f.FoodView" />
+    <activity android:label="Food Search" android:name="md5e874591afe307a907dbc9f87e609340f.FoodsView" />
+    <activity android:label="Food" android:name="md5e874591afe307a907dbc9f87e609340f.FoodView" />
     <activity android:label="View for InformationMenuViewModel" android:name="md5e874591afe307a907dbc9f87e609340f.InformationMenuView" />
     <activity android:label="View for MeasurementsViewModel" android:name="md5e874591afe307a907dbc9f87e609340f.MeasurementsView" />
     <activity android:label="View for FirstViewModel" android:name="md5e874591afe307a907dbc9f87e609340f.SecondView" />
