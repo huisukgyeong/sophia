@@ -18,5 +18,10 @@ E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.core\bin\Debug\MvvmCross.Platfo
 E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.core\obj\Debug\YWWAC.core.csprojResolveAssemblyReference.cache
 E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.core\obj\Debug\YWWAC.core.dll
 E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.core\obj\Debug\YWWAC.core.pdb
+E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.core\bin\Debug\Newtonsoft.Json.dll
+E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.core\bin\Debug\SQLite.Net.dll
+E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.core\bin\Debug\Newtonsoft.Json.xml
+E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.core\obj\Debug\YWWAC.core.dll.mdb
+E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.core\bin\Debug\YWWAC.core.dll.mdb
 E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.core\obj\Debug\YWWAC.core.dll.mdb
 E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.core\bin\Debug\YWWAC.core.dll.mdb

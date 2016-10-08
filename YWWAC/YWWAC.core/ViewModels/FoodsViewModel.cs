@@ -4,46 +4,47 @@ using System;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Windows.Input;
+using YWWAC.core.Services;
+using System.Linq;
+using System.Diagnostics;
 
 namespace YWWAC.core.ViewModels
 {
     public class FoodsViewModel : MvxViewModel
     {
-        private ObservableCollection<Food> foodNames;
-        public ObservableCollection<Food> FoodNames
+        private ObservableCollection<FoodSearchResults> foods;
+        public ObservableCollection<FoodSearchResults> Foods
         {
-            get { return foodNames; }
-            set { SetProperty(ref foodNames, value); }
+            get { return foods; }
+            set { SetProperty(ref foods, value); }
         }
-        private string foodName;
-        public string FoodName
+        private string searchTerm;
+        public string SearchTerm
         {
-            get { return foodName; }
+            get { return searchTerm; }
             set
             {
-                if (value != null)
+                SetProperty(ref searchTerm, value);
+                if (searchTerm.Length > 2)
                 {
-                    SetProperty(ref foodName, value);
+                    SearchFoods(searchTerm);
                 }
             }
         }
-        public ICommand AddFoodCommand { get; private set; }
         public ICommand SelectFoodCommand { get; private set; }
         public FoodsViewModel()
         {
-            FoodNames = new ObservableCollection<Food>() { };
-            AddFoodCommand = new MvxCommand(() =>
-            {
-                AddFood(new Food(FoodName));
-                RaisePropertyChanged(() => FoodNames);      
-            });
-            SelectFoodCommand = new MvxCommand<Food>(selectedFood => ShowViewModel<FoodViewModel>(selectedFood));
+            Foods = new ObservableCollection<FoodSearchResults>();
+            SelectFoodCommand = new MvxCommand<FoodSearchResults>(selectedFood => ShowViewModel<FoodViewModel>(selectedFood));
         }
-        public void AddFood(Food newFood)
+        public async void SearchFoods(string searchTerm)
         {
-            if (newFood.FoodName != null)
+            FoodService foodService = new FoodService();
+            Foods.Clear();
+            var foodResults = await foodService.GetFoods(searchTerm);
+            foreach (var item in foodResults)
             {
-                FoodNames.Add(newFood);
+                Foods.Add(item);
             }
         }
     }

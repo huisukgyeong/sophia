@@ -99,7 +99,7 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "YWWAC.Droid.dll" comes first in this list. */
 		"YWWAC.Droid.dll",
-		"Java.Interop.dll",
+		"Mono.Android.Export.dll",
 		"MvvmCross.Binding.dll",
 		"MvvmCross.Binding.Droid.dll",
 		"MvvmCross.Core.dll",
@@ -108,6 +108,9 @@ class MonoPackageManager_Resources {
 		"MvvmCross.Localization.dll",
 		"MvvmCross.Platform.dll",
 		"MvvmCross.Platform.Droid.dll",
+		"Newtonsoft.Json.dll",
+		"SQLite.Net.dll",
+		"SQLite.Net.Platform.XamarinAndroid.dll",
 		"YWWAC.core.dll",
 		"System.Threading.dll",
 		"System.Runtime.dll",
@@ -119,15 +122,22 @@ class MonoPackageManager_Resources {
 		"System.Runtime.InteropServices.dll",
 		"System.Runtime.Extensions.dll",
 		"System.Reflection.Extensions.dll",
-		"System.ServiceModel.Internals.dll",
 		"System.Linq.Expressions.dll",
 		"System.ObjectModel.dll",
 		"System.Globalization.dll",
 		"System.Threading.Tasks.dll",
 		"System.Resources.ResourceManager.dll",
 		"System.IO.dll",
+		"System.Xml.XDocument.dll",
+		"System.Runtime.Serialization.Primitives.dll",
+		"System.Dynamic.Runtime.dll",
+		"System.Text.RegularExpressions.dll",
+		"System.Xml.ReaderWriter.dll",
+		"System.Text.Encoding.dll",
+		"System.Text.Encoding.Extensions.dll",
+		"System.Net.Requests.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};
-	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_23";
+	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_24";
 }

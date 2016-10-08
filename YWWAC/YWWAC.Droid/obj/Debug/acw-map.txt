@@ -10,6 +10,10 @@ YWWAC.Droid.Views.FoodView, YWWAC.Droid;md5e874591afe307a907dbc9f87e609340f.Food
 YWWAC.Droid.Views.FoodView, YWWAC.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5e874591afe307a907dbc9f87e609340f.FoodView
 YWWAC.Droid.Views.FoodView;md5e874591afe307a907dbc9f87e609340f.FoodView
 ywwac.droid.views.FoodView;md5e874591afe307a907dbc9f87e609340f.FoodView
+YWWAC.Droid.Views.InformationMenuView, YWWAC.Droid;md5e874591afe307a907dbc9f87e609340f.InformationMenuView
+YWWAC.Droid.Views.InformationMenuView, YWWAC.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5e874591afe307a907dbc9f87e609340f.InformationMenuView
+YWWAC.Droid.Views.InformationMenuView;md5e874591afe307a907dbc9f87e609340f.InformationMenuView
+ywwac.droid.views.InformationMenuView;md5e874591afe307a907dbc9f87e609340f.InformationMenuView
 YWWAC.Droid.Views.MeasurementsView, YWWAC.Droid;md5e874591afe307a907dbc9f87e609340f.MeasurementsView
 YWWAC.Droid.Views.MeasurementsView, YWWAC.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5e874591afe307a907dbc9f87e609340f.MeasurementsView
 YWWAC.Droid.Views.MeasurementsView;md5e874591afe307a907dbc9f87e609340f.MeasurementsView

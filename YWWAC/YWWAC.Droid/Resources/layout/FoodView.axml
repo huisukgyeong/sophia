@@ -8,20 +8,37 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:textSize="20dp"
-        local:MvxBind="Text FoodName" />
+        local:MvxBind="Text Name" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Weight (grams)"
+        local:MvxBind="Text Weight" />
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Food Amount" />
+            android:text="Calories" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Protein Amount"
             android:layout_gravity="right"
-            local:MvxBind="Text FoodAmount" />
+            local:MvxBind="Text Calories" />
+    </GridLayout>
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ServingWeight" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            local:MvxBind="Text ServingWeight" />
     </GridLayout>
     <TextView
         android:layout_width="fill_parent"
@@ -37,7 +54,6 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Protein Amount"
             android:layout_gravity="right"
             local:MvxBind="Text Protein" />
     </GridLayout>
@@ -51,7 +67,6 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Fat Amount"
             android:layout_gravity="right"
             local:MvxBind="Text Fat" />
     </GridLayout>
@@ -65,7 +80,6 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Carbohydrates Amount"
             android:layout_gravity="right"
             local:MvxBind="Text Carbohydrates" />
     </GridLayout>

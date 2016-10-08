@@ -6,12 +6,14 @@
     <ResolvedResourceDirectory>E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\__library_projects__\MvvmCross.Droid\library_project_imports\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\__library_projects__\MvvmCross.Droid.Shared\library_project_imports\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\__library_projects__\MvvmCross.Platform.Droid\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\__library_projects__\SQLite.Net.Platform.XamarinAndroid\library_project_imports\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
-    <ResolvedAssetDirectory>E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\__library_projects__\MvvmCross.Binding.Droid\library_project_imports\assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\__library_projects__\MvvmCross.Droid\library_project_imports\assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\__library_projects__\MvvmCross.Droid.Shared\library_project_imports\assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\__library_projects__\MvvmCross.Platform.Droid\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\MvvmCross.Binding.Droid\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\MvvmCross.Droid\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\MvvmCross.Droid.Shared\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\MvvmCross.Platform.Droid\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\SQLite.Net.Platform.XamarinAndroid\library_project_imports\assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
@@ -19,5 +21,6 @@
     <ResolvedResourceDirectoryStamp>E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\__library_projects__\MvvmCross.Droid.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\__library_projects__\MvvmCross.Droid.Shared.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\__library_projects__\MvvmCross.Platform.Droid.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\__library_projects__\SQLite.Net.Platform.XamarinAndroid.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>

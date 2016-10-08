@@ -21,7 +21,8 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Library" />
+        android:text="Library"
+        local:MvxBind="Click InformationMenuViewCommand" />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

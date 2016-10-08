@@ -165,7 +165,7 @@
             android:layout_marginLeft="0.0dp" />
     </LinearLayout>
     <Button
-        android:text="Save"
+        android:text="Save Details"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button3"

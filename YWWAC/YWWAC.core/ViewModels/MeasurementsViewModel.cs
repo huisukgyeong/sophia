@@ -18,18 +18,6 @@ namespace YWWAC.core.ViewModels
                 return new MvxCommand(() => ShowViewModel<FoodsViewModel>());
             }
         }
-        public MvxCommand GoCommand
-        {
-            get
-            {
-                return new MvxCommand(() => ShowViewModel<ThirdViewModel>());
-            }
-        }
-        public MvxCommand SenseWeight { get; private set; }
-        public MvxCommand SenseHeight { get; private set; }
-        public MvxCommand SenseWaist { get; private set; }
-        public MvxCommand SenseHeartrate { get; private set; }
-        public MvxCommand SenseBloodPressure { get; private set; }
         public string Weight
         {
             get { return weight; }
@@ -96,8 +84,15 @@ namespace YWWAC.core.ViewModels
                 }
             }
         }
+        //dummy data
+        public MvxCommand SenseWeight { get; private set; }
+        public MvxCommand SenseHeight { get; private set; }
+        public MvxCommand SenseWaist { get; private set; }
+        public MvxCommand SenseHeartrate { get; private set; }
+        public MvxCommand SenseBloodPressure { get; private set; }
         public MeasurementsViewModel()
         {
+            //dummy data
             SenseWeight = new MvxCommand(() =>
             {
                 Weight = "52";
