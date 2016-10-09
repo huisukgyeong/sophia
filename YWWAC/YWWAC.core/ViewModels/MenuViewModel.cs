@@ -20,7 +20,7 @@ namespace YWWAC.core.ViewModels
         {
             get
             {
-                return new MvxCommand(() => ShowViewModel<SecondViewModel>());
+                return new MvxCommand(() => ShowViewModel<GoalSetupViewModel>());
             }
         }
         public MvxCommand InformationMenuViewCommand

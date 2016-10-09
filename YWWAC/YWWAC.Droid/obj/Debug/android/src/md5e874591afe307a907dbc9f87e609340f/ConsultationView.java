@@ -1,7 +1,7 @@
 package md5e874591afe307a907dbc9f87e609340f;
 
 
-public class ThirdView
+public class ConsultationView
 	extends md5c293e307133ee8f46151deed2480c6a8.MvxActivity
 	implements
 		mono.android.IGCUserPeer
@@ -12,15 +12,15 @@ public class ThirdView
 		__md_methods = 
 			"n_onCreate:(Landroid/os/Bundle;)V:GetOnCreate_Landroid_os_Bundle_Handler\n" +
 			"";
-		mono.android.Runtime.register ("YWWAC.Droid.Views.ThirdView, YWWAC.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", ThirdView.class, __md_methods);
+		mono.android.Runtime.register ("YWWAC.Droid.Views.ConsultationView, YWWAC.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", ConsultationView.class, __md_methods);
 	}
 
 
-	public ThirdView () throws java.lang.Throwable
+	public ConsultationView () throws java.lang.Throwable
 	{
 		super ();
-		if (getClass () == ThirdView.class)
-			mono.android.TypeManager.Activate ("YWWAC.Droid.Views.ThirdView, YWWAC.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
+		if (getClass () == ConsultationView.class)
+			mono.android.TypeManager.Activate ("YWWAC.Droid.Views.ConsultationView, YWWAC.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
 	}
 
 

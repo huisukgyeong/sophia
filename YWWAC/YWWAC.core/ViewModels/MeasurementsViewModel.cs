@@ -1,87 +1,90 @@
 using MvvmCross.Core.ViewModels;
+using System;
+using System.Windows.Input;
 
 namespace YWWAC.core.ViewModels
 {
-    //Author: Leon Tran n9157841
     public class MeasurementsViewModel : MvxViewModel
     {
-        private string weight;
-        private string height;
-        private string waist;
-        private string heartrate;
-        private string bloodPressureMax;
-        private string bloodPressureMin;
-        public MvxCommand FoodViewCommand
-        { 
-            get
+        //private ObservableCollection<Day> day;
+        private DateTime dateTime;
+        public DateTime DateTime {
+            get { return dateTime; }
+            set
             {
-                return new MvxCommand(() => ShowViewModel<FoodViewModel>());
+                SetProperty(ref dateTime, value);
             }
         }
-        public string Weight
+        private string date;
+        public string Date
+        {
+            get { return date; }
+            set
+            {
+                SetProperty(ref date, value);
+            }
+        }
+        private double weight;
+        public double Weight
         {
             get { return weight; }
             set
             {
-                if (value != null)
-                {
-                    SetProperty(ref weight, value);
-                }
+                SetProperty(ref weight, value);
             }
         }
-        public string Height
+        private int height;
+        public int Height
         {
             get { return height; }
             set
             {
-                if (value != null)
-                {
-                    SetProperty(ref height, value);
-                }
+                SetProperty(ref height, value);
             }
         }
-        public string Waist
+        private double waist;
+        public double Waist
         {
             get { return waist; }
             set
             {
-                if (value != null)
-                {
-                    SetProperty(ref waist, value);
-                }
+                SetProperty(ref waist, value);
             }
         }
-        public string Heartrate
+        private int heartrate;
+        public int Heartrate
         {
             get { return heartrate; }
             set
             {
-                if (value != null)
-                {
-                    SetProperty(ref heartrate, value);
-                }
+                SetProperty(ref heartrate, value);
             }
         }
-        public string BloodPressureMax
+        private int bloodPressureMax;
+        public int BloodPressureMax
         {
             get { return bloodPressureMax; }
             set
             {
-                if (value != null)
-                {
-                    SetProperty(ref bloodPressureMax, value);
-                }
+                SetProperty(ref bloodPressureMax, value);
             }
         }
-        public string BloodPressureMin
+        private int bloodPressureMin;
+        public int BloodPressureMin
         {
             get { return bloodPressureMin; }
             set
             {
-                if (value != null)
-                {
-                    SetProperty(ref bloodPressureMin, value);
-                }
+                SetProperty(ref bloodPressureMin, value);
+            }
+        }
+        public MvxCommand PreviousDate { get; private set; }
+        public MvxCommand NextDate { get; private set; }
+        public MvxCommand FoodViewCommand
+        {
+            get
+            {
+                return new MvxCommand(() => ShowViewModel<FoodViewModel>());
             }
         }
         //dummy data
@@ -92,52 +95,47 @@ namespace YWWAC.core.ViewModels
         public MvxCommand SenseBloodPressure { get; private set; }
         public MeasurementsViewModel()
         {
+            DateTime = DateTime.Now;
+            Date = SetDate(DateTime);
+            PreviousDate = new MvxCommand(() =>
+            {
+                Date = SetDate(DateTime = DateTime.AddDays(-1.0));
+                //get date's data
+            });
+            NextDate = new MvxCommand(() =>
+            {
+                Date = SetDate(DateTime = DateTime.AddDays(1.0));
+                //get date's data
+            });
             //dummy data
             SenseWeight = new MvxCommand(() =>
             {
-                Weight = "52";
+                Weight = 52.0;
             });
             SenseHeight = new MvxCommand(() =>
             {
-                Height = "167";
+                Height = 167;
             });
             SenseWaist = new MvxCommand(() =>
             {
-                Waist = "80";
+                Waist = 80.0;
             });
             SenseHeartrate = new MvxCommand(() =>
             {
-                Heartrate = "60";
+                Heartrate = 60;
             });
             SenseBloodPressure = new MvxCommand(() =>
             {
-                BloodPressureMax = "120";
-                BloodPressureMin = "80";
+                BloodPressureMax = 120;
+                BloodPressureMin = 80;
             });
         }
-    }
-
-    //Author: Dongmin Park n8920281
-    public class SecondViewModel : MvxViewModel
-    {
-        public MvxCommand MenuViewCommand
+        public string SetDate(DateTime dateTime)
         {
-            get
-            {
-                return new MvxCommand(() => ShowViewModel<MenuViewModel>());
-            }
-        }
-    }
-
-    //Author: Huisuk Gyeong n9230424
-    public class ThirdViewModel : MvxViewModel
-    {
-        public MvxCommand GoCommand
-        {
-            get
-            {
-                return new MvxCommand(() => ShowViewModel<SecondViewModel>());
-            }
+            return String.Format("{0}/{1}/{2}",
+                dateTime.Day.ToString(),
+                dateTime.Month.ToString(),
+                dateTime.Year.ToString());
         }
     }
 }

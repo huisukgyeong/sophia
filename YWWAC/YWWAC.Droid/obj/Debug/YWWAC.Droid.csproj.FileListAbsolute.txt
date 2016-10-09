@@ -164,8 +164,6 @@ C:\Users\Kaiwen\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\YWWAC.Droid.pdb
 C:\Users\Kaiwen\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\android\bin\YWWAC.Droid.YWWAC.Droid.apk
 C:\Users\Kaiwen\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\res\layout\splashscreen.xml
 C:\Users\Kaiwen\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\res\layout\measurementsview.xml
-C:\Users\Kaiwen\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\res\layout\secondview.xml
-C:\Users\Kaiwen\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\res\layout\thirdview.xml
 C:\Users\Kaiwen\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\res\layout\foodsview.xml
 C:\Users\Kaiwen\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\res\layout\foodslayout.xml
 C:\Users\Kaiwen\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\res\layout\foodview.xml
@@ -178,6 +176,10 @@ C:\Users\Kaiwen\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\res\layout\infor
 C:\Users\Kaiwen\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\res\layout\foodlayout.xml
 C:\Users\Kaiwen\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\R.cs.flag
 C:\Users\Kaiwen\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\uploadflags.txt
+C:\Users\Kaiwen\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\res\layout\communitymenuview.xml
+C:\Users\Kaiwen\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\res\layout\consultationview.xml
+C:\Users\Kaiwen\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\res\layout\goalsetupview.xml
+C:\Users\Kaiwen\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\res\layout\personaldetailsview.xml
 C:\Users\Kaiwen\Source\Repos\sophia\YWWAC\YWWAC.Droid\bin\Debug\YWWAC.Droid.dll.mdb
 C:\Users\Kaiwen\Source\Repos\sophia\YWWAC\YWWAC.Droid\bin\Debug\YWWAC.core.dll.mdb
 C:\Users\Kaiwen\Source\Repos\sophia\YWWAC\YWWAC.Droid\bin\Debug\Java.Interop.dll.mdb

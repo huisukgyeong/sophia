@@ -4,7 +4,6 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
-<!-- Author: Leon Tran n9157841 -->
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -12,13 +11,20 @@
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:adjustViewBounds="true"
-            android:scaleType="fitCenter" />
+            android:scaleType="fitCenter"
+            local:MvxBind="Click PreviousDate" />
         <TextView
             android:gravity="center"
-            android:layout_width="285dp"
+            android:layout_width="284dp"
             android:layout_height="wrap_content"
-            android:text="26 Aug, 2016"
-            android:textSize="30dp" />
+            android:textSize="30dp"
+            local:MvxBind="Text Date" />
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            local:MvxBind="Click NextDate" />
     </GridLayout>
     <Button
         android:layout_width="fill_parent"
@@ -136,5 +142,6 @@
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Save" />
+        android:text="Save"
+        local:MvxBind="Click SaveMeasurements" />
 </LinearLayout>

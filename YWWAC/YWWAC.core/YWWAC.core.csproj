@@ -36,10 +36,13 @@
   <ItemGroup>
     <Compile Include="App.cs" />
     <Compile Include="Database\FoodsDatabase.cs" />
+    <Compile Include="Database\MeasurementsDatabase.cs" />
     <Compile Include="Interfaces\IFoodsDatabase.cs" />
+    <Compile Include="Interfaces\IMeasurementsDatabase.cs" />
     <Compile Include="Interfaces\ISqlite.cs" />
     <Compile Include="Models\Food.cs" />
     <Compile Include="Models\FoodSearchResults.cs" />
+    <Compile Include="Models\Measurements.cs" />
     <Compile Include="Models\Nutrition.cs" />
     <Compile Include="Models\NutritionWrapper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -48,10 +51,12 @@
     <Compile Include="ViewModels\CommunityMenuViewModel.cs" />
     <Compile Include="ViewModels\ConsultationViewModel.cs" />
     <Compile Include="ViewModels\FoodViewModel.cs" />
+    <Compile Include="ViewModels\GoalSetupViewModel.cs" />
     <Compile Include="ViewModels\InformationMenuViewModel.cs" />
     <Compile Include="ViewModels\MeasurementsViewModel.cs" />
     <Compile Include="ViewModels\FoodsViewModel.cs" />
     <Compile Include="ViewModels\MenuViewModel.cs" />
+    <Compile Include="ViewModels\PersonalDetailsViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="MvvmCross.Binding, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">

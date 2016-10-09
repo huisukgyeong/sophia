@@ -4,7 +4,7 @@ using MvvmCross.Droid.Views;
 
 namespace YWWAC.Droid.Views
 {
-    [Activity(Label = "View for InformationMenuViewModel")]
+    [Activity(Label = "Library")]
     public class InformationMenuView : MvxActivity
     {
         protected override void OnCreate(Bundle bundle)

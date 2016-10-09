@@ -112,12 +112,12 @@ containing a value of this type.
         public static final int foodslayout=0x7f030003;
         public static final int foodsview=0x7f030004;
         public static final int foodview=0x7f030005;
-        public static final int informationmenuview=0x7f030006;
-        public static final int measurementsview=0x7f030007;
-        public static final int menuview=0x7f030008;
-        public static final int secondview=0x7f030009;
-        public static final int splashscreen=0x7f03000a;
-        public static final int thirdview=0x7f03000b;
+        public static final int goalsetupview=0x7f030006;
+        public static final int informationmenuview=0x7f030007;
+        public static final int measurementsview=0x7f030008;
+        public static final int menuview=0x7f030009;
+        public static final int personaldetailsview=0x7f03000a;
+        public static final int splashscreen=0x7f03000b;
     }
     public static final class string {
         public static final int ApplicationName=0x7f040001;

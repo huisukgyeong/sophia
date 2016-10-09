@@ -238,22 +238,22 @@ namespace YWWAC.Droid
 			public const int FoodView = 2130903045;
 			
 			// aapt resource value: 0x7f030006
-			public const int InformationMenuView = 2130903046;
+			public const int GoalSetupView = 2130903046;
 			
 			// aapt resource value: 0x7f030007
-			public const int MeasurementsView = 2130903047;
+			public const int InformationMenuView = 2130903047;
 			
 			// aapt resource value: 0x7f030008
-			public const int MenuView = 2130903048;
+			public const int MeasurementsView = 2130903048;
 			
 			// aapt resource value: 0x7f030009
-			public const int SecondView = 2130903049;
+			public const int MenuView = 2130903049;
 			
 			// aapt resource value: 0x7f03000a
-			public const int SplashScreen = 2130903050;
+			public const int PersonalDetailsView = 2130903050;
 			
 			// aapt resource value: 0x7f03000b
-			public const int ThirdView = 2130903051;
+			public const int SplashScreen = 2130903051;
 			
 			static Layout()
 			{

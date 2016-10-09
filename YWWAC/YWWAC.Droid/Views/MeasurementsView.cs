@@ -4,33 +4,13 @@ using MvvmCross.Droid.Views;
 
 namespace YWWAC.Droid.Views
 {
-    [Activity(Label = "View for MeasurementsViewModel")]
+    [Activity(Label = "Measurements")]
     public class MeasurementsView : MvxActivity
     {
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.MeasurementsView);
-        }
-    }
-
-    [Activity(Label = "View for FirstViewModel")]
-    public class SecondView : MvxActivity
-    {
-        protected override void OnCreate(Bundle bundle)
-        {
-            base.OnCreate(bundle);
-            SetContentView(Resource.Layout.SecondView);
-        }
-    }
-
-    [Activity(Label = "View for FirstViewModel")]
-    public class ThirdView : MvxActivity
-    {
-        protected override void OnCreate(Bundle bundle)
-        {
-            base.OnCreate(bundle);
-            SetContentView(Resource.Layout.ThirdView);
         }
     }
 }

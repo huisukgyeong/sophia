@@ -105,9 +105,11 @@
     <Compile Include="Views\ConsultationView.cs" />
     <Compile Include="Views\FoodsView.cs" />
     <Compile Include="Views\FoodView.cs" />
+    <Compile Include="Views\GoalSetupView.cs" />
     <Compile Include="Views\InformationMenuView.cs" />
     <Compile Include="Views\MeasurementsView.cs" />
     <Compile Include="Views\MenuView.cs" />
+    <Compile Include="Views\PersonalDetailsView.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="GettingStarted.Xamarin" />
@@ -118,10 +120,10 @@
     <AndroidResource Include="Resources\layout\MeasurementsView.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\layout\SecondView.axml">
+    <AndroidResource Include="Resources\layout\GoalSetupView.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\layout\ThirdView.axml">
+    <AndroidResource Include="Resources\layout\PersonalDetailsView.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\FoodsView.axml">

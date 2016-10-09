@@ -4,7 +4,7 @@ using MvvmCross.Droid.Views;
 
 namespace YWWAC.Droid.Views
 {
-    [Activity(Label = "Food Search")]
+    [Activity(Label = "Add Food")]
     public class FoodsView : MvxActivity
     {
         protected override void OnCreate(Bundle bundle)

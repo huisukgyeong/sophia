@@ -19,7 +19,7 @@ namespace YWWAC.Droid.Database
     {
         public SQLiteConnection GetConnection()
         {
-            var sqliteFilename = "FoodsSQLite.db3";
+            var sqliteFilename = "YWWACSQLite.db3";
             string documentsPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
             var path = Path.Combine(documentsPath, sqliteFilename);
             var conn = new SQLiteConnection(new SQLite.Net.Platform.XamarinAndroid.SQLitePlatformAndroid(), path);

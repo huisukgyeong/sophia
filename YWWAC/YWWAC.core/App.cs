@@ -11,7 +11,7 @@ namespace YWWAC.core
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
 
-            RegisterAppStart<ViewModels.ThirdViewModel>();
+            RegisterAppStart<ViewModels.PersonalDetailsViewModel>();
         }
     }
 }
