@@ -30,5 +30,12 @@ namespace YWWAC.core.ViewModels
                 return new MvxCommand(() => ShowViewModel<InformationMenuViewModel>());
             }
         }
+        public MvxCommand CommunityMenuViewCommand
+        {
+            get
+            {
+                return new MvxCommand(() => ShowViewModel<CommunityMenuViewModel>());
+            }
+        }
     }
 }

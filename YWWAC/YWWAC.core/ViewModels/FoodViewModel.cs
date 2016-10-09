@@ -29,7 +29,6 @@ namespace YWWAC.core.ViewModels
         {
             this.foodsDatabase = foodsdatabase;
             AddNewFoodCommand = new MvxCommand(() => ShowViewModel<FoodsViewModel>());
-            
         }
         public void OnResume()
         {

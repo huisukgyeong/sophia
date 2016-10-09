@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace YWWAC.core.ViewModels
 {
-    class InformationMenuViewModel : MvxViewModel
+    public class InformationMenuViewModel : MvxViewModel
     {
         
     }

@@ -45,6 +45,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\FoodApp.cs" />
     <Compile Include="Services\FoodService.cs" />
+    <Compile Include="ViewModels\CommunityMenuViewModel.cs" />
+    <Compile Include="ViewModels\ConsultationViewModel.cs" />
     <Compile Include="ViewModels\FoodViewModel.cs" />
     <Compile Include="ViewModels\InformationMenuViewModel.cs" />
     <Compile Include="ViewModels\MeasurementsViewModel.cs" />
