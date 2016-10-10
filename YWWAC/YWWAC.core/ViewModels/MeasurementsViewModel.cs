@@ -1,12 +1,17 @@
 using MvvmCross.Core.ViewModels;
 using System;
+using System.Collections.Generic;
+using System.Diagnostics;
 using System.Windows.Input;
+using YWWAC.core.Interfaces;
+using YWWAC.core.Models;
 
 namespace YWWAC.core.ViewModels
 {
     public class MeasurementsViewModel : MvxViewModel
     {
-        //private ObservableCollection<Day> day;
+        List<Measurements> measurements = new List<Measurements>();
+        private readonly IMeasurementsDatabase measurementsDatabase;
         private DateTime dateTime;
         public DateTime DateTime {
             get { return dateTime; }
@@ -80,6 +85,7 @@ namespace YWWAC.core.ViewModels
         }
         public MvxCommand PreviousDate { get; private set; }
         public MvxCommand NextDate { get; private set; }
+        public MvxCommand SaveCommand { get; private set; }
         public MvxCommand FoodViewCommand
         {
             get
@@ -87,48 +93,32 @@ namespace YWWAC.core.ViewModels
                 return new MvxCommand(() => ShowViewModel<FoodViewModel>());
             }
         }
-        //dummy data
-        public MvxCommand SenseWeight { get; private set; }
-        public MvxCommand SenseHeight { get; private set; }
-        public MvxCommand SenseWaist { get; private set; }
-        public MvxCommand SenseHeartrate { get; private set; }
-        public MvxCommand SenseBloodPressure { get; private set; }
-        public MeasurementsViewModel()
+        public MeasurementsViewModel(IMeasurementsDatabase measurementsDatabase)
         {
+            this.measurementsDatabase = measurementsDatabase;
             DateTime = DateTime.Now;
             Date = SetDate(DateTime);
             PreviousDate = new MvxCommand(() =>
             {
-                Date = SetDate(DateTime = DateTime.AddDays(-1.0));
-                //get date's data
+                DateTime = DateTime.AddDays(-1.0);
+                Date = SetDate(DateTime);
+                GetMeasurementsData();
             });
             NextDate = new MvxCommand(() =>
             {
-                Date = SetDate(DateTime = DateTime.AddDays(1.0));
-                //get date's data
+                DateTime = DateTime.AddDays(1.0);
+                Date = SetDate(DateTime);
+                GetMeasurementsData();
             });
-            //dummy data
-            SenseWeight = new MvxCommand(() =>
+            SaveCommand = new MvxCommand(() =>
             {
-                Weight = 52.0;
+                Measurements newMeasurements = new Measurements(DateTime, Weight, Height, Waist, heartrate, BloodPressureMax, BloodPressureMin);
+                SaveMeasurements(newMeasurements);
             });
-            SenseHeight = new MvxCommand(() =>
-            {
-                Height = 167;
-            });
-            SenseWaist = new MvxCommand(() =>
-            {
-                Waist = 80.0;
-            });
-            SenseHeartrate = new MvxCommand(() =>
-            {
-                Heartrate = 60;
-            });
-            SenseBloodPressure = new MvxCommand(() =>
-            {
-                BloodPressureMax = 120;
-                BloodPressureMin = 80;
-            });
+        }
+        public void OnResume()
+        {
+            GetMeasurementsData();
         }
         public string SetDate(DateTime dateTime)
         {
@@ -136,6 +126,35 @@ namespace YWWAC.core.ViewModels
                 dateTime.Day.ToString(),
                 dateTime.Month.ToString(),
                 dateTime.Year.ToString());
+        }
+        public async void SaveMeasurements(Measurements measurements)
+        {
+            //if (!await measurementsDatabase.CheckIfExists(measurements))
+            //{
+                await measurementsDatabase.InsertMeasurements(measurements);
+                Close(this);
+            //}
+            //else
+            //{
+            //    await measurementsDatabase.UpdateMeasurements(measurements);
+            //    Close(this);
+            //}
+        }
+        public async void GetMeasurementsData()
+        {
+            var measurements = await measurementsDatabase.GetMeasurements();
+            foreach (var measurement in measurements)
+            {
+                if (measurement.DateTime.Date == DateTime.Date)
+                {
+                    Weight = measurement.Weight;
+                    Height = measurement.Height;
+                    Waist = measurement.Waist;
+                    Heartrate = measurement.HeartRate;
+                    BloodPressureMax = measurement.BloodPressureMax;
+                    BloodPressureMin = measurement.BloodPressureMin;
+                }
+            }
         }
     }
 }

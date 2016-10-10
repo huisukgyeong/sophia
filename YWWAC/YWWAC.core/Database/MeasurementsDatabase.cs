@@ -33,5 +33,15 @@ namespace YWWAC.core.Database
             database.Commit();
             return num;
         }
+        public async Task<int> UpdateMeasurements(Measurements measurements)
+        {
+            return database.Update(measurements);
+        }
+        public async Task<bool> CheckIfExists(Measurements measurements)
+        {
+            var exists = database.Table<Measurements>().Any(
+                x => x.Id == measurements.Id || x.DateTime.Date == measurements.DateTime.Date);
+            return exists;
+        }
     }
 }

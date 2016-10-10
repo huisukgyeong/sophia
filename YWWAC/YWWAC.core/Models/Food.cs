@@ -15,7 +15,7 @@ namespace YWWAC.core.Models
             ItemName = food.fields.ItemName;
             BrandName = food.fields.BrandName;
         }
-        public string Id { get; set; }
+        public int Id { get; set; }
         public string ItemId { get; set; }
         public string ItemName { get; set; }
         public string BrandName { get; set; }

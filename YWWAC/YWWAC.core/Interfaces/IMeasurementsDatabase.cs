@@ -12,5 +12,7 @@ namespace YWWAC.core.Interfaces
         Task<IEnumerable<Measurements>> GetMeasurements();
         Task<int> DeleteMeasurements(object id);
         Task<int> InsertMeasurements(Measurements measurements);
+        Task<int> UpdateMeasurements(Measurements measurements);
+        Task<bool> CheckIfExists(Measurements measurements);
     }
 }

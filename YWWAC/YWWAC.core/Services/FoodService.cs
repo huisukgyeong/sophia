@@ -66,7 +66,6 @@ namespace YWWAC.core.Services
                     }
                 }
             }
-            Debug.WriteLine(responseValue);
             var sresponse = Newtonsoft.Json.JsonConvert.DeserializeObject<Nutrition>(responseValue);
             if (sresponse != null)
             {

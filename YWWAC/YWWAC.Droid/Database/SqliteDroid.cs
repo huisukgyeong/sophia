@@ -12,6 +12,7 @@ using Android.Widget;
 using YWWAC.core.Interfaces;
 using SQLite.Net;
 using System.IO;
+using System.Diagnostics;
 
 namespace YWWAC.Droid.Database
 {

@@ -9,8 +9,19 @@ namespace YWWAC.core.Models
 {
     public class Measurements
     {
+        public Measurements() { }
+        public Measurements(DateTime dateTime, double weight, int height, double waist, int heartRate, int bloodPressureMax, int bloodPressureMin)
+        {
+            DateTime = dateTime;
+            Weight = weight;
+            Height = height;
+            Waist = waist;
+            HeartRate = heartRate;
+            BloodPressureMax = bloodPressureMax;
+            BloodPressureMin = bloodPressureMin;
+        }
         [PrimaryKey, AutoIncrement]
-        public string ResultId { get; set; }
+        public int Id { get; set; }
         public DateTime DateTime { get; set; }
         public double Weight { get; set; }
         public int Height { get; set; }

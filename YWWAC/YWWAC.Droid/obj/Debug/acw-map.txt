@@ -2,6 +2,10 @@ YWWAC.Droid.SplashScreen, YWWAC.Droid;md55af63080ccdf0bde4c0c40e563bfac3e.Splash
 YWWAC.Droid.SplashScreen, YWWAC.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md55af63080ccdf0bde4c0c40e563bfac3e.SplashScreen
 YWWAC.Droid.SplashScreen;md55af63080ccdf0bde4c0c40e563bfac3e.SplashScreen
 ywwac.droid.SplashScreen;md55af63080ccdf0bde4c0c40e563bfac3e.SplashScreen
+YWWAC.Droid.Views.AddConsultantView, YWWAC.Droid;md5e874591afe307a907dbc9f87e609340f.AddConsultantView
+YWWAC.Droid.Views.AddConsultantView, YWWAC.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5e874591afe307a907dbc9f87e609340f.AddConsultantView
+YWWAC.Droid.Views.AddConsultantView;md5e874591afe307a907dbc9f87e609340f.AddConsultantView
+ywwac.droid.views.AddConsultantView;md5e874591afe307a907dbc9f87e609340f.AddConsultantView
 YWWAC.Droid.Views.CommunityMenuView, YWWAC.Droid;md5e874591afe307a907dbc9f87e609340f.CommunityMenuView
 YWWAC.Droid.Views.CommunityMenuView, YWWAC.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5e874591afe307a907dbc9f87e609340f.CommunityMenuView
 YWWAC.Droid.Views.CommunityMenuView;md5e874591afe307a907dbc9f87e609340f.CommunityMenuView

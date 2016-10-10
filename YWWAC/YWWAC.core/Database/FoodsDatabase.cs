@@ -27,7 +27,8 @@ namespace YWWAC.core.Database
         {
             return database.Delete<Food>(Convert.ToInt16(id));
         }
-        public async Task<int> InsertFood(Food food) {
+        public async Task<int> InsertFood(Food food)
+        {
             var num = database.Insert(food);
             database.Commit();
             return num;

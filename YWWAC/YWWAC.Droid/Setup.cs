@@ -26,6 +26,8 @@ namespace YWWAC.Droid
         {
             Mvx.LazyConstructAndRegisterSingleton<ISqlite, SqliteDroid>();
             Mvx.LazyConstructAndRegisterSingleton<IFoodsDatabase, FoodsDatabase>();
+            Mvx.LazyConstructAndRegisterSingleton<IMeasurementsDatabase, MeasurementsDatabase>();
+            Mvx.LazyConstructAndRegisterSingleton<IConsultantsDatabase, ConsultantsDatabase>();
             base.InitializeFirstChance();
         }
     }

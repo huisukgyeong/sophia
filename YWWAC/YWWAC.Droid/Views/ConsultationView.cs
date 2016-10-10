@@ -1,6 +1,7 @@
 using Android.App;
 using Android.OS;
 using MvvmCross.Droid.Views;
+using YWWAC.core.ViewModels;
 
 namespace YWWAC.Droid.Views
 {
@@ -11,6 +12,12 @@ namespace YWWAC.Droid.Views
         {
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.ConsultationView);
+        }
+        protected override void OnResume()
+        {
+            var vm = (ConsultationViewModel)ViewModel;
+            vm.OnResume();
+            base.OnResume();
         }
     }
 }

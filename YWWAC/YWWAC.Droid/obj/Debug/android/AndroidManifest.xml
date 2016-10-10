@@ -11,6 +11,7 @@
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
+    <activity android:label="Add Consultant" android:name="md5e874591afe307a907dbc9f87e609340f.AddConsultantView" />
     <activity android:label="Community Menu" android:name="md5e874591afe307a907dbc9f87e609340f.CommunityMenuView" />
     <activity android:label="Consultants" android:name="md5e874591afe307a907dbc9f87e609340f.ConsultationView" />
     <activity android:label="Add Food" android:name="md5e874591afe307a907dbc9f87e609340f.FoodsView" />

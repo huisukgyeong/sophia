@@ -16,7 +16,6 @@ namespace YWWAC.core.ViewModels
 {
     public class FoodViewModel : MvxViewModel
     {
-        List<FoodSearchResults> foods = new List<FoodSearchResults>();
         private ObservableCollection<NutritionWrapper> nutritionData = new ObservableCollection<NutritionWrapper>();
         private readonly IFoodsDatabase foodsDatabase;
         public ObservableCollection<NutritionWrapper> NutritionData
