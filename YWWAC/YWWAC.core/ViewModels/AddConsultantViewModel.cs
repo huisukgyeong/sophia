@@ -22,6 +22,15 @@ namespace YWWAC.core.ViewModels
                 SetProperty(ref name, value);
             }
         }
+        private string profession;
+        public string Profession
+        {
+            get { return profession; }
+            set
+            {
+                SetProperty(ref profession, value);
+            }
+        }
         private string contact;
         public string Contact
         {
@@ -46,7 +55,7 @@ namespace YWWAC.core.ViewModels
             this.consultantsDatabase = consultantsDatabase;
             AddConsultantCommand = new MvxCommand(() =>
             {
-                Consultant newConsultant = new Consultant(Name, Contact, Institution);
+                Consultant newConsultant = new Consultant(Name, Profession, Contact, Institution);
                 AddConsultant(newConsultant);
             });
         }

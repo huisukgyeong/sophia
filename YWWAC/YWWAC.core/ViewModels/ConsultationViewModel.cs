@@ -21,10 +21,12 @@ namespace YWWAC.core.ViewModels
             set { SetProperty(ref consultants, value); }
         }
         public ICommand AddNewConsultantCommand { get; private set; }
+        public ICommand SelectConsultantCommand { get; private set; }
         public ConsultationViewModel(IConsultantsDatabase consultantsDatabase)
         {
             this.consultantsDatabase = consultantsDatabase;
             AddNewConsultantCommand = new MvxCommand(() => ShowViewModel<AddConsultantViewModel>());
+            SelectConsultantCommand = new MvxCommand<Consultant>(selectedConsultant => ShowViewModel<ConsultantViewModel>(selectedConsultant));
         }
         public void OnResume()
         {
@@ -33,11 +35,12 @@ namespace YWWAC.core.ViewModels
         public async void GetConsultantData()
         {
             var consultantResults = await consultantsDatabase.GetConsultants();
+            Consultants.Clear();
             foreach (var consultant in consultantResults)
             {
                 if (consultant != null)
                 {
-                    Consultants.Add(new Consultant(consultant.Name, consultant.Contact, consultant.Institution));
+                    Consultants.Add(new Consultant(consultant.Name, consultant.Profession, consultant.Contact, consultant.Institution));
                 }
                 else
                 {

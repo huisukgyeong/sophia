@@ -33,9 +33,9 @@ namespace YWWAC.core.Database
             database.Commit();
             return num;
         }
-        public async Task<int> InsertFood(FoodSearchResults food)
+        public async Task<int> InsertFood(FoodSearchResults food, double foodWeight)
         {
-            return await InsertFood(new Food(food));
+            return await InsertFood(new Food(food, foodWeight));
         }
     }
 }

@@ -24,10 +24,12 @@ namespace YWWAC.core.ViewModels
             set { SetProperty(ref nutritionData, value); }
         }
         public ICommand AddNewFoodCommand { get; private set; }
+        public ICommand SelectFoodCommand { get; private set; }
         public FoodViewModel(IFoodsDatabase foodsdatabase)
         {
             this.foodsDatabase = foodsdatabase;
-            AddNewFoodCommand = new MvxCommand(() => ShowViewModel<FoodsViewModel>());
+            AddNewFoodCommand = new MvxCommand(() => ShowViewModel<AddFoodViewModel>());
+            //SelectFoodCommand = new MvxCommand(() => ShowViewModel<ViewFoodViewModel>());
         }
         public void OnResume()
         {
@@ -43,7 +45,7 @@ namespace YWWAC.core.ViewModels
                 var foodResult = await foodService.GetNutrition(food.ItemId);
                 if (foodResult != null)
                 {
-                    NutritionData.Add(new NutritionWrapper(foodResult));
+                    NutritionData.Add(new NutritionWrapper(foodResult, food));
                 }
                 else
                 {

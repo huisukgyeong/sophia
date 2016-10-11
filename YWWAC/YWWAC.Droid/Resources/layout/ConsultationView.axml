@@ -12,6 +12,6 @@
     <Mvx.MvxListView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        local:MvxBind="ItemsSource Consultants"
+        local:MvxBind="ItemsSource Consultants; ItemClick SelectConsultantCommand"
         local:MvxItemTemplate="@layout/consultantlayout" />
 </LinearLayout>

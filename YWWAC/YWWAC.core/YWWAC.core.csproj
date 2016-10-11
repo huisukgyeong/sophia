@@ -53,12 +53,13 @@
     <Compile Include="Services\FoodService.cs" />
     <Compile Include="ViewModels\AddConsultantViewModel.cs" />
     <Compile Include="ViewModels\CommunityMenuViewModel.cs" />
+    <Compile Include="ViewModels\ConsultantViewModel.cs" />
     <Compile Include="ViewModels\ConsultationViewModel.cs" />
     <Compile Include="ViewModels\FoodViewModel.cs" />
     <Compile Include="ViewModels\GoalSetupViewModel.cs" />
     <Compile Include="ViewModels\InformationMenuViewModel.cs" />
     <Compile Include="ViewModels\MeasurementsViewModel.cs" />
-    <Compile Include="ViewModels\FoodsViewModel.cs" />
+    <Compile Include="ViewModels\AddFoodViewModel.cs" />
     <Compile Include="ViewModels\MenuViewModel.cs" />
     <Compile Include="ViewModels\PersonalDetailsViewModel.cs" />
   </ItemGroup>

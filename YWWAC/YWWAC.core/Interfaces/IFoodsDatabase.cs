@@ -12,6 +12,6 @@ namespace YWWAC.core.Interfaces
         Task<IEnumerable<Food>> GetFoods();
         Task<int> DeleteFood(object id);
         Task<int> InsertFood(Food food);
-        Task<int> InsertFood(FoodSearchResults food);
+        Task<int> InsertFood(FoodSearchResults food, double foodWeight);
     }
 }
