@@ -1,9 +1,12 @@
 ﻿using MvvmCross.Core.ViewModels;
+using MvvmCross.Platform;
+using MvvmCross.Plugins.PhoneCall;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Input;
 using YWWAC.core.Models;
 
 namespace YWWAC.core.ViewModels
@@ -45,6 +48,17 @@ namespace YWWAC.core.ViewModels
             set
             {
                 SetProperty(ref institution, value);
+            }
+        }
+        public ICommand CallGeneralCommand
+        {
+            get
+            {
+                return new MvxCommand(() =>
+                {
+                    PluginLoader.Instance.EnsureLoaded();
+                    Mvx.Resolve<IMvxPhoneCallTask>().MakePhoneCall("Contact us", selectedConsultant.Contact);
+                });
             }
         }
         public void Init(Consultant parameters)

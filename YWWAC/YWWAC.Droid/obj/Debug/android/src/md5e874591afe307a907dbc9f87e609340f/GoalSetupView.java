@@ -2,7 +2,7 @@ package md5e874591afe307a907dbc9f87e609340f;
 
 
 public class GoalSetupView
-	extends md5c293e307133ee8f46151deed2480c6a8.MvxActivity
+	extends mvvmcross.droid.views.MvxActivity
 	implements
 		mono.android.IGCUserPeer
 {

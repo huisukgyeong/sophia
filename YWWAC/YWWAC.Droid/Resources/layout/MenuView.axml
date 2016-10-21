@@ -4,28 +4,35 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="99.5dp"
+        android:id="@+id/imageView1"
+        android:background="@drawable/back" />
     <Button
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Measurements"
-        local:MvxBind="Click MeasurementsViewCommand" />
+        android:layout_height="100dp"
+        android:background="@drawable/goal_setup"
+        android:text=""
+        local:MvxBind="Click GoalsViewCommand"
+        android:id="@+id/button1" />
+    <Button
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="100.0dp"
+        local:MvxBind="Click MeasurementsViewCommand"
+        android:background="@drawable/check_body"
+        android:id="@+id/button2" />
+    <Button
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        local:MvxBind="Click InformationMenuViewCommand"
+        android:background="@drawable/infomation" />
     <Button
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Progress" />
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Goals"
-        local:MvxBind="Click GoalsViewCommand" />
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Library"
-        local:MvxBind="Click InformationMenuViewCommand" />
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Community"
-        local:MvxBind="Click CommunityMenuViewCommand" />
+        android:layout_height="100dp"
+        android:text=""
+        local:MvxBind="Click CommunityMenuViewCommand"
+        android:background="@drawable/chat" />
 </LinearLayout>

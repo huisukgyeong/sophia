@@ -1,57 +1,83 @@
 ﻿using MvvmCross.Core.ViewModels;
-using YWWAC.core.Models;
 using System;
-using System.Collections.ObjectModel;
+using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using YWWAC.core.Services;
-using System.Diagnostics;
-using System.Windows.Input;
-using YWWAC.core.Interfaces;
-using YWWAC.core.Database;
-using System.Collections.Generic;
+using YWWAC.core.Models;
 
 namespace YWWAC.core.ViewModels
 {
     public class FoodViewModel : MvxViewModel
     {
-        private ObservableCollection<NutritionWrapper> nutritionData = new ObservableCollection<NutritionWrapper>();
-        private readonly IFoodsDatabase foodsDatabase;
-        public ObservableCollection<NutritionWrapper> NutritionData
+        private NutritionWrapper selectedFood;
+        public void Init(NutritionWrapper parameters)
         {
-            get { return nutritionData; }
-            set { SetProperty(ref nutritionData, value); }
+            selectedFood = parameters;
         }
-        public ICommand AddNewFoodCommand { get; private set; }
-        public ICommand SelectFoodCommand { get; private set; }
-        public FoodViewModel(IFoodsDatabase foodsdatabase)
+        private string name;
+        public string Name
         {
-            this.foodsDatabase = foodsdatabase;
-            AddNewFoodCommand = new MvxCommand(() => ShowViewModel<AddFoodViewModel>());
-            //SelectFoodCommand = new MvxCommand(() => ShowViewModel<ViewFoodViewModel>());
-        }
-        public void OnResume()
-        {
-            GetFoodData();
-        }
-        public async void GetFoodData()
-        {
-            var foods = await foodsDatabase.GetFoods();
-            var foodService = new FoodService();
-            NutritionData.Clear();
-            foreach (var food in foods)
+            get { return name; }
+            set
             {
-                var foodResult = await foodService.GetNutrition(food.ItemId);
-                if (foodResult != null)
-                {
-                    NutritionData.Add(new NutritionWrapper(foodResult, food));
-                }
-                else
-                {
-                    foodsDatabase.DeleteFood(food.Id);
-                }
+                SetProperty(ref name, value);
             }
+        }
+        private string foodWeight;
+        public string FoodWeight
+        {
+            get { return foodWeight; }
+            set
+            {
+                SetProperty(ref foodWeight, value);
+            }
+        }
+        private string calories;
+        public string Calories
+        {
+            get { return calories; }
+            set
+            {
+                SetProperty(ref calories, value);
+            }
+        }
+        private string protein;
+        public string Protein
+        {
+            get { return protein; }
+            set
+            {
+                SetProperty(ref protein, value);
+            }
+        }
+        private string fat;
+        public string Fat
+        {
+            get { return fat; }
+            set
+            {
+                SetProperty(ref fat, value);
+            }
+        }
+        private string carbohydrates;
+        public string Carbohydrates
+        {
+            get { return carbohydrates; }
+            set
+            {
+                SetProperty(ref carbohydrates, value);
+            }
+        }
+        public override void Start()
+        {
+            base.Start();
+            Name = selectedFood.Name;
+            FoodWeight = String.Format("{0}g", selectedFood.FoodWeight);
+            Calories = String.Format("{0}cal", selectedFood.Calories);
+            Protein = String.Format("{0}", selectedFood.Protein);
+            Fat = String.Format("{0}", selectedFood.Fat);
+            Carbohydrates = String.Format("{0}", selectedFood.Carbohydrates);
         }
     }
 }

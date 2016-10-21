@@ -3,12 +3,15 @@
     xmlns:local="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#FFF27280">
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="New Consultant"
-        local:MvxBind="Click AddNewConsultantCommand" />
+        local:MvxBind="Click AddNewConsultantCommand"
+        android:background="#FFFFFFFF"
+        android:textColor="#FF000000" />
     <Mvx.MvxListView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"

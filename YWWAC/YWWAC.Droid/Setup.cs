@@ -4,10 +4,8 @@ using MvvmCross.Core.ViewModels;
 using MvvmCross.Platform.Platform;
 using MvvmCross.Platform;
 using YWWAC.core.Interfaces;
-using YWWAC.Droid.Database;
 using YWWAC.core.Database;
-using MvvmCross.Droid.Views;
-using MvvmCross.Droid.Shared.Presenter;
+using YWWAC.Droid.Database;
 
 namespace YWWAC.Droid
 {
@@ -16,10 +14,12 @@ namespace YWWAC.Droid
         public Setup(Context applicationContext) : base(applicationContext)
         {
         }
+
         protected override IMvxApplication CreateApp()
         {
-            return new YWWAC.core.App();
+            return new core.App();
         }
+
         protected override IMvxTrace CreateDebugTrace()
         {
             return new DebugTrace();
@@ -31,12 +31,6 @@ namespace YWWAC.Droid
             Mvx.LazyConstructAndRegisterSingleton<IMeasurementsDatabase, MeasurementsDatabase>();
             Mvx.LazyConstructAndRegisterSingleton<IConsultantsDatabase, ConsultantsDatabase>();
             base.InitializeFirstChance();
-        }
-        protected override IMvxAndroidViewPresenter CreateViewPresenter()
-        {
-            var mvxFragmentsPresenter = new MvxFragmentsPresenter(AndroidViewAssemblies);
-            Mvx.RegisterSingleton<IMvxAndroidViewPresenter>(mvxFragmentsPresenter);
-            return mvxFragmentsPresenter;
         }
     }
 }

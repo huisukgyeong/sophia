@@ -1,17 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:local="http://schemas.android.com/apk/res-auto"
-    android:tag="CommunityMenuView"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+    <TextView
+        android:text="CHAT COMMUNITY"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="205.5dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp" />
     <Button
+        android:layout_width="359.5dp"
+        android:layout_height="179.5dp"
+        local:MvxBind="Click ConsultationViewCommand"
+        android:background="@drawable/nurse"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="0.0dp"
+        android:layout_marginTop="20dp" />
+    <Button
+        android:layout_width="359.5dp"
+        android:layout_height="179.5dp"
+        android:text=""
+        android:layout_marginTop="20dp"
+        android:background="@drawable/peer"
+        android:layout_marginLeft="13dp" />
+    <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Consultation"
-        local:MvxBind="Click ConsultationViewCommand" />
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Discussion Board" />
+        android:id="@+id/imageView1"
+        android:layout_marginTop="75.5dp"
+        android:background="@drawable/chat_bar" />
 </LinearLayout>

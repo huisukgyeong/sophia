@@ -90,7 +90,7 @@ namespace YWWAC.core.ViewModels
         {
             get
             {
-                return new MvxCommand(() => ShowViewModel<FoodViewModel>());
+                return new MvxCommand(() => ShowViewModel<FoodsViewModel>());
             }
         }
         public MeasurementsViewModel(IMeasurementsDatabase measurementsDatabase)

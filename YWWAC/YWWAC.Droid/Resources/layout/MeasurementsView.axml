@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:local="http://schemas.android.com/apk/res-auto"
-    android:tag="MeasurementsView"
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
@@ -16,7 +15,7 @@
             local:MvxBind="Click PreviousDate" />
         <TextView
             android:gravity="center"
-            android:layout_width="260dp"
+            android:layout_width="284dp"
             android:layout_height="wrap_content"
             android:textSize="30dp"
             local:MvxBind="Text Date" />
@@ -144,5 +143,5 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="Save"
-        local:MvxBind="Click SaveCommand" />
+        local:MvxBind="Click SaveMeasurements" />
 </LinearLayout>

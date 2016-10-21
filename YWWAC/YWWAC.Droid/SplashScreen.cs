@@ -7,7 +7,7 @@ namespace YWWAC.Droid
     [Activity(
         Label = "YWWAC"
         , MainLauncher = true
-        , Icon = "@drawable/icon"
+        , Icon = "@drawable/logo"
         , Theme = "@style/Theme.Splash"
         , NoHistory = true
         , ScreenOrientation = ScreenOrientation.Portrait)]
