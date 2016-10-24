@@ -16,13 +16,13 @@
     <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
     <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
-    <TargetFrameworkVersion>v7.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v6.0</TargetFrameworkVersion>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <DebugSymbols>true</DebugSymbols>
+    <DebugSymbols>True</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>bin\Debug\</OutputPath>
@@ -31,6 +31,11 @@
     <WarningLevel>4</WarningLevel>
     <AndroidUseSharedRuntime>True</AndroidUseSharedRuntime>
     <AndroidLinkMode>None</AndroidLinkMode>
+    <EmbedAssembliesIntoApk>False</EmbedAssembliesIntoApk>
+    <BundleAssemblies>False</BundleAssemblies>
+    <AndroidCreatePackagePerAbi>False</AndroidCreatePackagePerAbi>
+    <Debugger>Xamarin</Debugger>
+    <AndroidEnableMultiDex>False</AndroidEnableMultiDex>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -117,8 +122,8 @@
     <Compile Include="Views\ConsultantView.cs" />
     <Compile Include="Views\ConsultationView.cs" />
     <Compile Include="Views\AddFoodView.cs" />
-    <Compile Include="Views\FoodView.cs" />
     <Compile Include="Views\FoodsView.cs" />
+    <Compile Include="Views\FoodView.cs" />
     <Compile Include="Views\GoalSetupView.cs" />
     <Compile Include="Views\InformationMenuView.cs" />
     <Compile Include="Views\MeasurementsView.cs" />
@@ -149,9 +154,6 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\SplashScreen.axml" />
-    <AndroidResource Include="Resources\layout\FoodView.axml">
-      <SubType>Designer</SubType>
-    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\Strings.xml" />
@@ -202,7 +204,20 @@
     <AndroidResource Include="Resources\drawable\splash2.png" />
     <AndroidResource Include="Resources\drawable\Today.PNG" />
     <AndroidResource Include="Resources\drawable\today2.PNG" />
-    <Content Include="ToDo-MvvmCross\_ Droid UI.txt" />
+    <AndroidResource Include="Resources\drawable\bar1.PNG" />
+    <AndroidResource Include="Resources\drawable\bar2.PNG" />
+    <AndroidResource Include="Resources\drawable\chatcomm.PNG" />
+    <AndroidResource Include="Resources\drawable\check_box.PNG" />
+    <AndroidResource Include="Resources\drawable\exercise2.PNG" />
+    <AndroidResource Include="Resources\drawable\exercise3.PNG" />
+    <AndroidResource Include="Resources\drawable\food.PNG" />
+    <AndroidResource Include="Resources\drawable\infor_title.PNG" />
+    <AndroidResource Include="Resources\drawable\nurse_.PNG" />
+    <AndroidResource Include="Resources\drawable\save.PNG" />
+    <AndroidResource Include="Resources\layout\FoodView.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <None Include="ToDo-MvvmCross\_ Droid UI.txt" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\MenuView.axml">

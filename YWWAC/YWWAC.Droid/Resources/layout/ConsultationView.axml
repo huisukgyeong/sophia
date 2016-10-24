@@ -4,13 +4,13 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFF27280">
+    android:background="#FFFFFFFF">
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="New Consultant"
         local:MvxBind="Click AddNewConsultantCommand"
-        android:background="#FFFFFFFF"
+        android:background="#FFF27280"
         android:textColor="#FF000000" />
     <Mvx.MvxListView
         android:layout_width="fill_parent"

@@ -11,10 +11,6 @@ namespace YWWAC.core.ViewModels
     public class FoodViewModel : MvxViewModel
     {
         private NutritionWrapper selectedFood;
-        public void Init(NutritionWrapper parameters)
-        {
-            selectedFood = parameters;
-        }
         private string name;
         public string Name
         {
@@ -69,10 +65,14 @@ namespace YWWAC.core.ViewModels
                 SetProperty(ref carbohydrates, value);
             }
         }
+        public void Init(NutritionWrapper parameters)
+        {
+            selectedFood = parameters;
+            Name = selectedFood.Name;
+        }
         public override void Start()
         {
             base.Start();
-            Name = selectedFood.Name;
             FoodWeight = String.Format("{0}g", selectedFood.FoodWeight);
             Calories = String.Format("{0}cal", selectedFood.Calories);
             Protein = String.Format("{0}", selectedFood.Protein);

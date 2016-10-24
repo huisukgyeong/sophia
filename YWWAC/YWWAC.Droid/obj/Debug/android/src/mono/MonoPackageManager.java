@@ -99,7 +99,7 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "YWWAC.Droid.dll" comes first in this list. */
 		"YWWAC.Droid.dll",
-		"Mono.Android.Export.dll",
+		"Java.Interop.dll",
 		"MvvmCross.Binding.dll",
 		"MvvmCross.Binding.Droid.dll",
 		"MvvmCross.Core.dll",
@@ -124,6 +124,7 @@ class MonoPackageManager_Resources {
 		"System.Runtime.InteropServices.dll",
 		"System.Runtime.Extensions.dll",
 		"System.Reflection.Extensions.dll",
+		"System.ServiceModel.Internals.dll",
 		"System.Linq.Expressions.dll",
 		"System.ObjectModel.dll",
 		"System.Globalization.dll",
@@ -141,5 +142,5 @@ class MonoPackageManager_Resources {
 	};
 	public static final String[] Dependencies = new String[]{
 	};
-	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_24";
+	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_23";
 }

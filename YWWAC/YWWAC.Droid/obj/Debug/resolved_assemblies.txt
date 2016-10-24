@@ -32,9 +32,9 @@ E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\android\assets\
 E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\android\assets\System.Runtime.InteropServices.dll
 E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\android\assets\System.Runtime.Extensions.dll
 E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\android\assets\System.Reflection.Extensions.dll
-E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\android\assets\System.Net.Http.dll
 E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\android\assets\System.Runtime.Serialization.dll
 E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\android\assets\System.ServiceModel.Internals.dll
+E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\android\assets\System.Net.Http.dll
 E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\android\assets\System.Linq.Expressions.dll
 E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\android\assets\System.ObjectModel.dll
 E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\android\assets\System.Globalization.dll

@@ -33,42 +33,6 @@
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:id="@+id/linearLayout5"
-                android:layout_marginBottom="15.0dp">
-                <TextView
-                    android:text="MEASURE"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:layout_width="151.5dp"
-                    android:layout_height="match_parent"
-                    android:id="@+id/textView2"
-                    android:layout_marginRight="50.5dp"
-                    android:textColor="#EF8E6C"
-                    android:layout_marginLeft="10.0dp"
-                    android:layout_marginTop="10.0dp" />
-                <LinearLayout
-                    android:orientation="horizontal"
-                    android:layout_width="279.5dp"
-                    android:layout_height="match_parent"
-                    android:id="@+id/linearLayout6"
-                    android:layout_marginRight="261.5dp">
-                    <Button
-                        android:text="us"
-                        android:id="@+id/button1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        local:MvxBind="Click MenuViewCommand"
-                        android:layout_marginLeft="-10.0dp" />
-                    <Button
-                        android:text="METRIC"
-                        android:id="@+id/button2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent" />
-                </LinearLayout>
-            </LinearLayout>
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
                 android:layout_height="114.0dp"
                 android:id="@+id/linearLayout2">
                 <TextView

@@ -92,100 +92,130 @@ namespace YWWAC.Droid
 			public const int back = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int chat = 2130837505;
+			public const int bar1 = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int chat_bar = 2130837506;
+			public const int bar2 = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int check_body = 2130837507;
+			public const int chat = 2130837507;
 			
 			// aapt resource value: 0x7f020004
-			public const int contact = 2130837508;
+			public const int chat_bar = 2130837508;
 			
 			// aapt resource value: 0x7f020005
-			public const int detail = 2130837509;
+			public const int chatcomm = 2130837509;
 			
 			// aapt resource value: 0x7f020006
-			public const int doctor = 2130837510;
+			public const int check_body = 2130837510;
 			
 			// aapt resource value: 0x7f020007
-			public const int doctor2 = 2130837511;
+			public const int check_box = 2130837511;
 			
 			// aapt resource value: 0x7f020008
-			public const int empty = 2130837512;
+			public const int contact = 2130837512;
 			
 			// aapt resource value: 0x7f020009
-			public const int final_date = 2130837513;
+			public const int detail = 2130837513;
 			
 			// aapt resource value: 0x7f02000a
-			public const int goal = 2130837514;
+			public const int doctor = 2130837514;
 			
 			// aapt resource value: 0x7f02000b
-			public const int goal_exercise = 2130837515;
+			public const int doctor2 = 2130837515;
 			
 			// aapt resource value: 0x7f02000c
-			public const int goal_setup = 2130837516;
+			public const int empty = 2130837516;
 			
 			// aapt resource value: 0x7f02000d
-			public const int H1 = 2130837517;
+			public const int exercise2 = 2130837517;
 			
 			// aapt resource value: 0x7f02000e
-			public const int H2 = 2130837518;
+			public const int exercise3 = 2130837518;
 			
 			// aapt resource value: 0x7f02000f
-			public const int H3 = 2130837519;
+			public const int final_date = 2130837519;
 			
 			// aapt resource value: 0x7f020010
-			public const int ho = 2130837520;
+			public const int food = 2130837520;
 			
 			// aapt resource value: 0x7f020011
-			public const int hotdog = 2130837521;
+			public const int goal = 2130837521;
 			
 			// aapt resource value: 0x7f020012
-			public const int Icon = 2130837522;
+			public const int goal_exercise = 2130837522;
 			
 			// aapt resource value: 0x7f020013
-			public const int info = 2130837523;
+			public const int goal_setup = 2130837523;
 			
 			// aapt resource value: 0x7f020014
-			public const int info_bar = 2130837524;
+			public const int H1 = 2130837524;
 			
 			// aapt resource value: 0x7f020015
-			public const int infomation = 2130837525;
+			public const int H2 = 2130837525;
 			
 			// aapt resource value: 0x7f020016
-			public const int intro = 2130837526;
+			public const int H3 = 2130837526;
 			
 			// aapt resource value: 0x7f020017
-			public const int Logo = 2130837527;
+			public const int ho = 2130837527;
 			
 			// aapt resource value: 0x7f020018
-			public const int mater = 2130837528;
+			public const int hotdog = 2130837528;
 			
 			// aapt resource value: 0x7f020019
-			public const int nurse = 2130837529;
+			public const int Icon = 2130837529;
 			
 			// aapt resource value: 0x7f02001a
-			public const int peer = 2130837530;
+			public const int info = 2130837530;
 			
 			// aapt resource value: 0x7f02001b
-			public const int save_detail = 2130837531;
+			public const int info_bar = 2130837531;
 			
 			// aapt resource value: 0x7f02001c
-			public const int save_detail2 = 2130837532;
+			public const int infomation = 2130837532;
 			
 			// aapt resource value: 0x7f02001d
-			public const int splash = 2130837533;
+			public const int infor_title = 2130837533;
 			
 			// aapt resource value: 0x7f02001e
-			public const int splash2 = 2130837534;
+			public const int intro = 2130837534;
 			
 			// aapt resource value: 0x7f02001f
-			public const int Today = 2130837535;
+			public const int Logo = 2130837535;
 			
 			// aapt resource value: 0x7f020020
-			public const int today2 = 2130837536;
+			public const int mater = 2130837536;
+			
+			// aapt resource value: 0x7f020021
+			public const int nurse = 2130837537;
+			
+			// aapt resource value: 0x7f020022
+			public const int nurse_ = 2130837538;
+			
+			// aapt resource value: 0x7f020023
+			public const int peer = 2130837539;
+			
+			// aapt resource value: 0x7f020024
+			public const int save = 2130837540;
+			
+			// aapt resource value: 0x7f020025
+			public const int save_detail = 2130837541;
+			
+			// aapt resource value: 0x7f020026
+			public const int save_detail2 = 2130837542;
+			
+			// aapt resource value: 0x7f020027
+			public const int splash = 2130837543;
+			
+			// aapt resource value: 0x7f020028
+			public const int splash2 = 2130837544;
+			
+			// aapt resource value: 0x7f020029
+			public const int Today = 2130837545;
+			
+			// aapt resource value: 0x7f02002a
+			public const int today2 = 2130837546;
 			
 			static Drawable()
 			{
@@ -206,26 +236,26 @@ namespace YWWAC.Droid
 			// aapt resource value: 0x7f050001
 			public const int MvxBindingTagUnique = 2131034113;
 			
-			// aapt resource value: 0x7f050007
-			public const int button1 = 2131034119;
+			// aapt resource value: 0x7f050005
+			public const int button1 = 2131034117;
 			
-			// aapt resource value: 0x7f05000d
-			public const int button2 = 2131034125;
+			// aapt resource value: 0x7f050018
+			public const int button2 = 2131034136;
 			
-			// aapt resource value: 0x7f05001b
-			public const int button3 = 2131034139;
-			
-			// aapt resource value: 0x7f05001a
-			public const int calendarView1 = 2131034138;
-			
-			// aapt resource value: 0x7f050012
-			public const int editText1 = 2131034130;
+			// aapt resource value: 0x7f050016
+			public const int button3 = 2131034134;
 			
 			// aapt resource value: 0x7f050015
-			public const int editText2 = 2131034133;
+			public const int calendarView1 = 2131034133;
 			
-			// aapt resource value: 0x7f05001e
-			public const int editText3 = 2131034142;
+			// aapt resource value: 0x7f05000d
+			public const int editText1 = 2131034125;
+			
+			// aapt resource value: 0x7f050010
+			public const int editText2 = 2131034128;
+			
+			// aapt resource value: 0x7f05001d
+			public const int editText3 = 2131034141;
 			
 			// aapt resource value: 0x7f05001f
 			public const int editText4 = 2131034143;
@@ -233,74 +263,74 @@ namespace YWWAC.Droid
 			// aapt resource value: 0x7f050022
 			public const int editText5 = 2131034146;
 			
+			// aapt resource value: 0x7f050006
+			public const int gallery1 = 2131034118;
+			
+			// aapt resource value: 0x7f050007
+			public const int gallery2 = 2131034119;
+			
 			// aapt resource value: 0x7f050008
-			public const int gallery1 = 2131034120;
-			
-			// aapt resource value: 0x7f050009
-			public const int gallery2 = 2131034121;
-			
-			// aapt resource value: 0x7f05000a
-			public const int gridView1 = 2131034122;
+			public const int gridView1 = 2131034120;
 			
 			// aapt resource value: 0x7f050003
 			public const int imageView1 = 2131034115;
 			
-			// aapt resource value: 0x7f050005
-			public const int imageView2 = 2131034117;
+			// aapt resource value: 0x7f050002
+			public const int imageView2 = 2131034114;
 			
-			// aapt resource value: 0x7f05001c
-			public const int linearLayout1 = 2131034140;
+			// aapt resource value: 0x7f050019
+			public const int linearLayout1 = 2131034137;
 			
 			// aapt resource value: 0x7f050020
 			public const int linearLayout10 = 2131034144;
 			
-			// aapt resource value: 0x7f05000e
-			public const int linearLayout2 = 2131034126;
+			// aapt resource value: 0x7f050009
+			public const int linearLayout2 = 2131034121;
 			
-			// aapt resource value: 0x7f05000f
-			public const int linearLayout3 = 2131034127;
-			
-			// aapt resource value: 0x7f050018
-			public const int linearLayout4 = 2131034136;
-			
-			// aapt resource value: 0x7f05000b
-			public const int linearLayout5 = 2131034123;
-			
-			// aapt resource value: 0x7f05000c
-			public const int linearLayout6 = 2131034124;
-			
-			// aapt resource value: 0x7f050010
-			public const int linearLayout7 = 2131034128;
+			// aapt resource value: 0x7f05000a
+			public const int linearLayout3 = 2131034122;
 			
 			// aapt resource value: 0x7f050013
-			public const int linearLayout8 = 2131034131;
+			public const int linearLayout4 = 2131034131;
+			
+			// aapt resource value: 0x7f05001b
+			public const int linearLayout5 = 2131034139;
+			
+			// aapt resource value: 0x7f05001e
+			public const int linearLayout6 = 2131034142;
+			
+			// aapt resource value: 0x7f05000b
+			public const int linearLayout7 = 2131034123;
+			
+			// aapt resource value: 0x7f05000e
+			public const int linearLayout8 = 2131034126;
+			
+			// aapt resource value: 0x7f050012
+			public const int linearLayout9 = 2131034130;
 			
 			// aapt resource value: 0x7f050017
-			public const int linearLayout9 = 2131034135;
+			public const int textView1 = 2131034135;
 			
-			// aapt resource value: 0x7f050002
-			public const int textView1 = 2131034114;
+			// aapt resource value: 0x7f05001a
+			public const int textView2 = 2131034138;
 			
 			// aapt resource value: 0x7f050004
-			public const int textView2 = 2131034116;
+			public const int textView3 = 2131034116;
 			
-			// aapt resource value: 0x7f050006
-			public const int textView3 = 2131034118;
+			// aapt resource value: 0x7f05000c
+			public const int textView4 = 2131034124;
+			
+			// aapt resource value: 0x7f05000f
+			public const int textView5 = 2131034127;
 			
 			// aapt resource value: 0x7f050011
-			public const int textView4 = 2131034129;
+			public const int textView6 = 2131034129;
+			
+			// aapt resource value: 0x7f05001c
+			public const int textView7 = 2131034140;
 			
 			// aapt resource value: 0x7f050014
-			public const int textView5 = 2131034132;
-			
-			// aapt resource value: 0x7f050016
-			public const int textView6 = 2131034134;
-			
-			// aapt resource value: 0x7f05001d
-			public const int textView7 = 2131034141;
-			
-			// aapt resource value: 0x7f050019
-			public const int textView8 = 2131034137;
+			public const int textView8 = 2131034132;
 			
 			// aapt resource value: 0x7f050021
 			public const int textView9 = 2131034145;

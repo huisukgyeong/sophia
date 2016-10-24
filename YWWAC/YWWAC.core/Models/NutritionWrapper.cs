@@ -17,7 +17,7 @@ namespace YWWAC.core.Models
             Fat = nutrition.nf_total_fat;
             Carbohydrates = nutrition.nf_total_carbohydrate;
             percentServings = FoodWeight / nutrition.nf_calories;
-            Calories = ((4.0 * Protein) + (9.0 * Fat) + (4.0 * Carbohydrates)) * percentServings;
+            Calories = Math.Round(((4.0 * Protein) + (9.0 * Fat) + (4.0 * Carbohydrates)) * percentServings, 2);
         }
         public string Name { get; set; }
         public double FoodWeight { get; set; }

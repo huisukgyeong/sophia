@@ -33,7 +33,6 @@ E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\res\layout\addf
 E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\res\layout\foodslayout.xml
 E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\res\layout\foodsview.xml
 E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\res\layout\splashscreen.xml
-E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\res\layout\foodview.xml
 E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\res\values\strings.xml
 E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\res\drawable\icon.png
 E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\res\values\splashstyle.xml
@@ -69,6 +68,17 @@ E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\res\drawable\sa
 E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\res\drawable\splash2.png
 E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\res\drawable\today.png
 E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\res\drawable\today2.png
+E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\res\drawable\bar1.png
+E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\res\drawable\bar2.png
+E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\res\drawable\chatcomm.png
+E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\res\drawable\check_box.png
+E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\res\drawable\exercise2.png
+E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\res\drawable\exercise3.png
+E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\res\drawable\food.png
+E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\res\drawable\infor_title.png
+E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\res\drawable\nurse_.png
+E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\res\drawable\save.png
+E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\res\layout\foodview.xml
 E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\res\layout\menuview.xml
 E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\res\layout\informationmenuview.xml
 E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\res\layout\foodlayout.xml

@@ -22,14 +22,14 @@ YWWAC.Droid.Views.AddFoodView, YWWAC.Droid;md5e874591afe307a907dbc9f87e609340f.A
 YWWAC.Droid.Views.AddFoodView, YWWAC.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5e874591afe307a907dbc9f87e609340f.AddFoodView
 YWWAC.Droid.Views.AddFoodView;md5e874591afe307a907dbc9f87e609340f.AddFoodView
 ywwac.droid.views.AddFoodView;md5e874591afe307a907dbc9f87e609340f.AddFoodView
-YWWAC.Droid.Views.FoodView, YWWAC.Droid;md5e874591afe307a907dbc9f87e609340f.FoodView
-YWWAC.Droid.Views.FoodView, YWWAC.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5e874591afe307a907dbc9f87e609340f.FoodView
-YWWAC.Droid.Views.FoodView;md5e874591afe307a907dbc9f87e609340f.FoodView
-ywwac.droid.views.FoodView;md5e874591afe307a907dbc9f87e609340f.FoodView
 YWWAC.Droid.Views.FoodsView, YWWAC.Droid;md5e874591afe307a907dbc9f87e609340f.FoodsView
 YWWAC.Droid.Views.FoodsView, YWWAC.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5e874591afe307a907dbc9f87e609340f.FoodsView
 YWWAC.Droid.Views.FoodsView;md5e874591afe307a907dbc9f87e609340f.FoodsView
 ywwac.droid.views.FoodsView;md5e874591afe307a907dbc9f87e609340f.FoodsView
+YWWAC.Droid.Views.FoodView, YWWAC.Droid;md5e874591afe307a907dbc9f87e609340f.FoodView
+YWWAC.Droid.Views.FoodView, YWWAC.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5e874591afe307a907dbc9f87e609340f.FoodView
+YWWAC.Droid.Views.FoodView;md5e874591afe307a907dbc9f87e609340f.FoodView
+ywwac.droid.views.FoodView;md5e874591afe307a907dbc9f87e609340f.FoodView
 YWWAC.Droid.Views.GoalSetupView, YWWAC.Droid;md5e874591afe307a907dbc9f87e609340f.GoalSetupView
 YWWAC.Droid.Views.GoalSetupView, YWWAC.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5e874591afe307a907dbc9f87e609340f.GoalSetupView
 YWWAC.Droid.Views.GoalSetupView;md5e874591afe307a907dbc9f87e609340f.GoalSetupView

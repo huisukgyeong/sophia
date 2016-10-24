@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="YWWAC.Droid.YWWAC.Droid" android:versionCode="1" android:versionName="1.0">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="YWWAC.Droid.YWWAC.Droid" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
   <!--suppress UsesMinSdkAttributes-->
   <uses-sdk android:minSdkVersion="16" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-  <application android:label="YWWAC.Droid" android:name="android.app.Application" android:allowBackup="true" android:icon="@drawable/logo" android:debuggable="true">
+  <application android:label="YWWAC.Droid" android:icon="@drawable/logo" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
     <activity android:icon="@drawable/logo" android:label="YWWAC" android:noHistory="true" android:screenOrientation="portrait" android:theme="@style/Theme.Splash" android:name="md55af63080ccdf0bde4c0c40e563bfac3e.SplashScreen">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
@@ -16,8 +16,8 @@
     <activity android:label="Consultant" android:name="md5e874591afe307a907dbc9f87e609340f.ConsultantView" />
     <activity android:label="Consultants" android:name="md5e874591afe307a907dbc9f87e609340f.ConsultationView" />
     <activity android:label="Add Food" android:name="md5e874591afe307a907dbc9f87e609340f.AddFoodView" />
-    <activity android:label="Nutrition Data" android:name="md5e874591afe307a907dbc9f87e609340f.FoodView" />
     <activity android:label="Food" android:name="md5e874591afe307a907dbc9f87e609340f.FoodsView" />
+    <activity android:label="Nutrition Data" android:name="md5e874591afe307a907dbc9f87e609340f.FoodView" />
     <activity android:label="Goal Setup" android:name="md5e874591afe307a907dbc9f87e609340f.GoalSetupView" />
     <activity android:label="Library" android:name="md5e874591afe307a907dbc9f87e609340f.InformationMenuView" />
     <activity android:label="Measurements" android:name="md5e874591afe307a907dbc9f87e609340f.MeasurementsView" />

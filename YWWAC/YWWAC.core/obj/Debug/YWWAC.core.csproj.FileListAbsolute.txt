@@ -12,5 +12,3 @@ E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.core\obj\Debug\YWWAC.core.dll
 E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.core\obj\Debug\YWWAC.core.pdb
 E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.core\obj\Debug\YWWAC.core.dll.mdb
 E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.core\bin\Debug\YWWAC.core.dll.mdb
-E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.core\obj\Debug\YWWAC.core.dll.mdb
-E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.core\bin\Debug\YWWAC.core.dll.mdb

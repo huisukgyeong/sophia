@@ -4,29 +4,47 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFF27280">
+    android:background="#FFFFFFFF">
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#FF000000"
         local:MvxBind="Text Name" />
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#FF000000"
         local:MvxBind="Text FoodWeight" />
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#FF000000"
         local:MvxBind="Text Calories" />
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#FF000000"
+        android:text="Macronutrients" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#FF000000"
         local:MvxBind="Text Protein" />
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#FF000000"
         local:MvxBind="Text Fat" />
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#FF000000"
         local:MvxBind="Text Carbohydrates" />
 </LinearLayout>
