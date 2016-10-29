@@ -11,13 +11,13 @@ namespace YWWAC.core.Models
     public class FoodSearchResults
     {
         [PrimaryKey, AutoIncrement]
-        public int resultId { get; set; }
+        public int Id { get; set; }
         [JsonProperty("_index")]
         public string Index { get; set; }
         [JsonProperty("_type")]
         public string Type { get; set; }
         [JsonProperty("_id")]
-        public string Id { get; set; }
+        public string ItemId { get; set; }
         [JsonProperty("_score")]
         public double Score { get; set; }
         public Fields fields { get; set; }

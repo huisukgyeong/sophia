@@ -8,17 +8,18 @@ namespace YWWAC.core.Models
 {
     public class NutritionWrapper : Nutrition
     {
-        private double percentServings;
+        public NutritionWrapper() { }
         public NutritionWrapper(Nutrition nutrition, Food food)
         {
             Name = nutrition.ItemName;
             FoodWeight = food.FoodWeight;
-            Protein = nutrition.nf_protein;
-            Fat = nutrition.nf_total_fat;
-            Carbohydrates = nutrition.nf_total_carbohydrate;
-            percentServings = FoodWeight / nutrition.nf_calories;
-            Calories = Math.Round(((4.0 * Protein) + (9.0 * Fat) + (4.0 * Carbohydrates)) * percentServings, 2);
+            percentServings = FoodWeight / nutrition.nf_serving_weight_grams;
+            Protein = Math.Round(nutrition.nf_protein * 4.0 * percentServings, 2);
+            Fat = Math.Round(nutrition.nf_total_fat * 9.0 * percentServings, 2);
+            Carbohydrates = Math.Round(nutrition.nf_total_carbohydrate * 4.0 * percentServings, 2);
+            Calories = Math.Round(nutrition.nf_calories * percentServings, 2);
         }
+        private double percentServings;
         public string Name { get; set; }
         public double FoodWeight { get; set; }
         public double Protein { get; set; }

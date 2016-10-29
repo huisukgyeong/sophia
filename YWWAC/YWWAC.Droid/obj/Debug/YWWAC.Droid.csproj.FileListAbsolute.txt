@@ -125,5 +125,9 @@ E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\android\assets\
 E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
 E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\android\assets\YWWAC.core.dll.mdb
 E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\android\assets\YWWAC.Droid.dll.mdb
+E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\res\layout\addexerciseview.xml
+E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\res\layout\exercisesview.xml
+E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\res\layout\exerciselayout.xml
+E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\res\layout\exerciseview.xml
 E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\obj\Debug\YWWAC.Droid.dll.mdb
 E:\Administrator\Source\Repos\sophia\YWWAC\YWWAC.Droid\bin\Debug\YWWAC.Droid.dll.mdb

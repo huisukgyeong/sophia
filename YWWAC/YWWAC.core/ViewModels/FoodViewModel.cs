@@ -68,16 +68,16 @@ namespace YWWAC.core.ViewModels
         public void Init(NutritionWrapper parameters)
         {
             selectedFood = parameters;
-            Name = selectedFood.Name;
         }
         public override void Start()
         {
             base.Start();
-            FoodWeight = String.Format("{0}g", selectedFood.FoodWeight);
-            Calories = String.Format("{0}cal", selectedFood.Calories);
-            Protein = String.Format("{0}", selectedFood.Protein);
-            Fat = String.Format("{0}", selectedFood.Fat);
-            Carbohydrates = String.Format("{0}", selectedFood.Carbohydrates);
+            Name = selectedFood.Name;
+            FoodWeight = String.Format("Weight: {0}g", selectedFood.FoodWeight);
+            Calories = String.Format("Calories: {0}cal", selectedFood.Calories);
+            Protein = String.Format("Protein: {0}", selectedFood.Protein);
+            Fat = String.Format("Fat: {0}", selectedFood.Fat);
+            Carbohydrates = String.Format("Carbohydrates: {0}", selectedFood.Carbohydrates);
         }
     }
 }

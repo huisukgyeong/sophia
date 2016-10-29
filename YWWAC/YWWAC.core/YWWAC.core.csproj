@@ -36,15 +36,21 @@
   <ItemGroup>
     <Compile Include="App.cs" />
     <Compile Include="Database\ConsultantsDatabase.cs" />
+    <Compile Include="Database\ExercisesDatabase.cs" />
     <Compile Include="Database\FoodsDatabase.cs" />
+    <Compile Include="Database\GoalsDatabase.cs" />
     <Compile Include="Database\MeasurementsDatabase.cs" />
     <Compile Include="Interfaces\IConsultantsDatabase.cs" />
+    <Compile Include="Interfaces\IExercisesDatabase.cs" />
     <Compile Include="Interfaces\IFoodsDatabase.cs" />
+    <Compile Include="Interfaces\IGoalsDatabase.cs" />
     <Compile Include="Interfaces\IMeasurementsDatabase.cs" />
     <Compile Include="Interfaces\ISqlite.cs" />
     <Compile Include="Models\Consultant.cs" />
+    <Compile Include="Models\Exercise.cs" />
     <Compile Include="Models\Food.cs" />
     <Compile Include="Models\FoodSearchResults.cs" />
+    <Compile Include="Models\Goals.cs" />
     <Compile Include="Models\Measurements.cs" />
     <Compile Include="Models\Nutrition.cs" />
     <Compile Include="Models\NutritionWrapper.cs" />
@@ -52,9 +58,12 @@
     <Compile Include="Services\FoodApp.cs" />
     <Compile Include="Services\FoodService.cs" />
     <Compile Include="ViewModels\AddConsultantViewModel.cs" />
+    <Compile Include="ViewModels\AddExerciseViewModel.cs" />
     <Compile Include="ViewModels\CommunityMenuViewModel.cs" />
     <Compile Include="ViewModels\ConsultantViewModel.cs" />
     <Compile Include="ViewModels\ConsultationViewModel.cs" />
+    <Compile Include="ViewModels\ExercisesViewModel.cs" />
+    <Compile Include="ViewModels\ExerciseViewModel.cs" />
     <Compile Include="ViewModels\FoodsViewModel.cs" />
     <Compile Include="ViewModels\FoodViewModel.cs" />
     <Compile Include="ViewModels\GoalSetupViewModel.cs" />

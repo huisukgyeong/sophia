@@ -118,10 +118,13 @@
     <Compile Include="Setup.cs" />
     <Compile Include="SplashScreen.cs" />
     <Compile Include="Views\AddConsultantView.cs" />
+    <Compile Include="Views\AddExerciseView.cs" />
     <Compile Include="Views\CommunityMenuView.cs" />
     <Compile Include="Views\ConsultantView.cs" />
     <Compile Include="Views\ConsultationView.cs" />
     <Compile Include="Views\AddFoodView.cs" />
+    <Compile Include="Views\ExercisesView.cs" />
+    <Compile Include="Views\ExerciseView.cs" />
     <Compile Include="Views\FoodsView.cs" />
     <Compile Include="Views\FoodView.cs" />
     <Compile Include="Views\GoalSetupView.cs" />
@@ -215,6 +218,18 @@
     <AndroidResource Include="Resources\drawable\nurse_.PNG" />
     <AndroidResource Include="Resources\drawable\save.PNG" />
     <AndroidResource Include="Resources\layout\FoodView.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\AddExerciseView.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\ExercisesView.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\ExerciseLayout.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\ExerciseView.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
     <None Include="ToDo-MvvmCross\_ Droid UI.txt" />

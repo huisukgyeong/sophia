@@ -52,6 +52,7 @@
             <Button
                 android:layout_width="390.5dp"
                 android:layout_height="39.0dp"
+                local:MvxBind="Click ExerciseViewCommand"
                 android:background="@drawable/exercise3" />
             <GridLayout
                 android:layout_width="match_parent"
@@ -67,8 +68,7 @@
                     android:inputType="number"
                     android:layout_width="70.0dp"
                     android:textSize="20dp"
-                    local:MvxBind="Text Weight"
-                    android:textColor="#000000" />
+                    local:MvxBind="Text Weight" />
                 <TextView
                     android:layout_width="85dp"
                     android:text="KG or"
@@ -94,8 +94,7 @@
                     android:inputType="number"
                     android:layout_width="70.0dp"
                     android:textSize="20dp"
-                    local:MvxBind="Text Height"
-                    android:textColor="#000000" />
+                    local:MvxBind="Text Height" />
                 <TextView
                     android:layout_width="85dp"
                     android:text="cm or"
@@ -121,8 +120,7 @@
                     android:inputType="number"
                     android:layout_width="70.0dp"
                     android:textSize="20dp"
-                    local:MvxBind="Text Waist"
-                    android:textColor="#000000" />
+                    local:MvxBind="Text Waist" />
                 <TextView
                     android:layout_width="85dp"
                     android:text="cm or"
@@ -148,8 +146,7 @@
                     android:inputType="number"
                     android:layout_width="70.0dp"
                     android:textSize="20dp"
-                    local:MvxBind="Text Heartrate"
-                    android:textColor="#000000" />
+                    local:MvxBind="Text Heartrate" />
                 <TextView
                     android:layout_width="85dp"
                     android:text="bpm or"
@@ -176,8 +173,7 @@
                     android:inputType="number"
                     android:layout_width="66dp"
                     android:textSize="20dp"
-                    local:MvxBind="Text BloodPressureMax"
-                    android:textColor="#000000" />
+                    local:MvxBind="Text BloodPressureMax" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:text="/"
@@ -187,8 +183,7 @@
                     android:inputType="number"
                     android:layout_width="66dp"
                     android:textSize="20dp"
-                    local:MvxBind="Text BloodPressureMin"
-                    android:textColor="#000000" />
+                    local:MvxBind="Text BloodPressureMin" />
                 <TextView
                     android:layout_width="85dp"
                     android:text="mmHg or"
@@ -207,7 +202,7 @@
                 android:layout_height="71.5dp"
                 android:background="@drawable/save"
                 android:layout_marginTop="27.5dp"
-                local:MvxBind="Click SaveMeasurements" />
+                local:MvxBind="Click SaveCommand" />
         </TableLayout>
     </ScrollView>
 </LinearLayout>

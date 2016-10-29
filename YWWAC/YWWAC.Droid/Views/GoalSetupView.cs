@@ -13,5 +13,11 @@ namespace YWWAC.Droid.Views
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.GoalSetupView);
         }
+        protected override void OnResume()
+        {
+            var vm = (GoalSetupViewModel)ViewModel;
+            vm.OnResume();
+            base.OnResume();
+        }
     }
 }

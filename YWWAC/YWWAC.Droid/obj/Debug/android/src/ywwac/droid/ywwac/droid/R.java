@@ -150,21 +150,25 @@ containing a value of this type.
     }
     public static final class layout {
         public static final int addconsultantview=0x7f030000;
-        public static final int addfoodview=0x7f030001;
-        public static final int communitymenuview=0x7f030002;
-        public static final int consultantlayout=0x7f030003;
-        public static final int consultantview=0x7f030004;
-        public static final int consultationview=0x7f030005;
-        public static final int foodlayout=0x7f030006;
-        public static final int foodslayout=0x7f030007;
-        public static final int foodsview=0x7f030008;
-        public static final int foodview=0x7f030009;
-        public static final int goalsetupview=0x7f03000a;
-        public static final int informationmenuview=0x7f03000b;
-        public static final int measurementsview=0x7f03000c;
-        public static final int menuview=0x7f03000d;
-        public static final int personaldetailsview=0x7f03000e;
-        public static final int splashscreen=0x7f03000f;
+        public static final int addexerciseview=0x7f030001;
+        public static final int addfoodview=0x7f030002;
+        public static final int communitymenuview=0x7f030003;
+        public static final int consultantlayout=0x7f030004;
+        public static final int consultantview=0x7f030005;
+        public static final int consultationview=0x7f030006;
+        public static final int exerciselayout=0x7f030007;
+        public static final int exercisesview=0x7f030008;
+        public static final int exerciseview=0x7f030009;
+        public static final int foodlayout=0x7f03000a;
+        public static final int foodslayout=0x7f03000b;
+        public static final int foodsview=0x7f03000c;
+        public static final int foodview=0x7f03000d;
+        public static final int goalsetupview=0x7f03000e;
+        public static final int informationmenuview=0x7f03000f;
+        public static final int measurementsview=0x7f030010;
+        public static final int menuview=0x7f030011;
+        public static final int personaldetailsview=0x7f030012;
+        public static final int splashscreen=0x7f030013;
     }
     public static final class string {
         public static final int ApplicationName=0x7f040001;

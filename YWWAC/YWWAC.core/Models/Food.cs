@@ -11,7 +11,7 @@ namespace YWWAC.core.Models
         public Food() { }
         public Food(FoodSearchResults food, double foodWeight)
         {
-            ItemId = food.Id;
+            ItemId = food.ItemId;
             FoodWeight = foodWeight;
             ItemName = food.fields.ItemName;
             BrandName = food.fields.BrandName;
