@@ -9,6 +9,12 @@ namespace YWWAC.core.ViewModels
 {
     public class InformationMenuViewModel : MvxViewModel
     {
-        
+        public MvxCommand NewsViewCommand
+        {
+            get
+            {
+                return new MvxCommand(() => ShowViewModel<NewsViewModel>());
+            }
+        }
     }
 }

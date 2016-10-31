@@ -58,6 +58,10 @@ YWWAC.Droid.Views.MenuView, YWWAC.Droid;md5e874591afe307a907dbc9f87e609340f.Menu
 YWWAC.Droid.Views.MenuView, YWWAC.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5e874591afe307a907dbc9f87e609340f.MenuView
 YWWAC.Droid.Views.MenuView;md5e874591afe307a907dbc9f87e609340f.MenuView
 ywwac.droid.views.MenuView;md5e874591afe307a907dbc9f87e609340f.MenuView
+YWWAC.Droid.Views.NewsView, YWWAC.Droid;md5e874591afe307a907dbc9f87e609340f.NewsView
+YWWAC.Droid.Views.NewsView, YWWAC.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5e874591afe307a907dbc9f87e609340f.NewsView
+YWWAC.Droid.Views.NewsView;md5e874591afe307a907dbc9f87e609340f.NewsView
+ywwac.droid.views.NewsView;md5e874591afe307a907dbc9f87e609340f.NewsView
 YWWAC.Droid.Views.PersonalDetailsView, YWWAC.Droid;md5e874591afe307a907dbc9f87e609340f.PersonalDetailsView
 YWWAC.Droid.Views.PersonalDetailsView, YWWAC.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5e874591afe307a907dbc9f87e609340f.PersonalDetailsView
 YWWAC.Droid.Views.PersonalDetailsView;md5e874591afe307a907dbc9f87e609340f.PersonalDetailsView

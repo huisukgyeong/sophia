@@ -150,6 +150,7 @@ namespace YWWAC.core.ViewModels
         public async void GetMeasurementsData()
         {
             var measurements = await measurementsDatabase.GetMeasurements();
+            var measurementsFound = false;
             foreach (var measurement in measurements)
             {
                 if (measurement.DateTime.Date == DateTime.Date)
@@ -160,7 +161,17 @@ namespace YWWAC.core.ViewModels
                     Heartrate = measurement.HeartRate;
                     BloodPressureMax = measurement.BloodPressureMax;
                     BloodPressureMin = measurement.BloodPressureMin;
+                    measurementsFound = true;
                 }
+            }
+            if (measurementsFound == false)
+            {
+                Weight = 0;
+                Height = 0;
+                Waist = 0;
+                Heartrate = 0;
+                BloodPressureMax = 0;
+                BloodPressureMin = 0;
             }
         }
     }

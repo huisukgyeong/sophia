@@ -98,18 +98,20 @@ containing a value of this type.
         public static final int infomation=0x7f02001c;
         public static final int infor_title=0x7f02001d;
         public static final int intro=0x7f02001e;
-        public static final int logo=0x7f02001f;
-        public static final int mater=0x7f020020;
-        public static final int nurse=0x7f020021;
-        public static final int nurse_=0x7f020022;
-        public static final int peer=0x7f020023;
-        public static final int save=0x7f020024;
-        public static final int save_detail=0x7f020025;
-        public static final int save_detail2=0x7f020026;
-        public static final int splash=0x7f020027;
-        public static final int splash2=0x7f020028;
-        public static final int today=0x7f020029;
-        public static final int today2=0x7f02002a;
+        public static final int leftarrow=0x7f02001f;
+        public static final int logo=0x7f020020;
+        public static final int mater=0x7f020021;
+        public static final int nurse=0x7f020022;
+        public static final int nurse_=0x7f020023;
+        public static final int peer=0x7f020024;
+        public static final int rightarrow=0x7f020025;
+        public static final int save=0x7f020026;
+        public static final int save_detail=0x7f020027;
+        public static final int save_detail2=0x7f020028;
+        public static final int splash=0x7f020029;
+        public static final int splash2=0x7f02002a;
+        public static final int today=0x7f02002b;
+        public static final int today2=0x7f02002c;
     }
     public static final class id {
         public static final int MvvmCrossTagId=0x7f050000;
@@ -167,8 +169,9 @@ containing a value of this type.
         public static final int informationmenuview=0x7f03000f;
         public static final int measurementsview=0x7f030010;
         public static final int menuview=0x7f030011;
-        public static final int personaldetailsview=0x7f030012;
-        public static final int splashscreen=0x7f030013;
+        public static final int newsview=0x7f030012;
+        public static final int personaldetailsview=0x7f030013;
+        public static final int splashscreen=0x7f030014;
     }
     public static final class string {
         public static final int ApplicationName=0x7f040001;

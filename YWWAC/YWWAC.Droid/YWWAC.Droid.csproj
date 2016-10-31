@@ -131,6 +131,7 @@
     <Compile Include="Views\InformationMenuView.cs" />
     <Compile Include="Views\MeasurementsView.cs" />
     <Compile Include="Views\MenuView.cs" />
+    <Compile Include="Views\NewsView.cs" />
     <Compile Include="Views\PersonalDetailsView.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -232,6 +233,9 @@
     <AndroidResource Include="Resources\layout\ExerciseView.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
+    <AndroidResource Include="Resources\layout\NewsView.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
     <None Include="ToDo-MvvmCross\_ Droid UI.txt" />
   </ItemGroup>
   <ItemGroup>
@@ -259,6 +263,12 @@
     <AndroidResource Include="Resources\layout\ConsultantView.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\leftarrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\rightarrow.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

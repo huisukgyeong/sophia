@@ -182,40 +182,46 @@ namespace YWWAC.Droid
 			public const int intro = 2130837534;
 			
 			// aapt resource value: 0x7f02001f
-			public const int Logo = 2130837535;
+			public const int leftarrow = 2130837535;
 			
 			// aapt resource value: 0x7f020020
-			public const int mater = 2130837536;
+			public const int Logo = 2130837536;
 			
 			// aapt resource value: 0x7f020021
-			public const int nurse = 2130837537;
+			public const int mater = 2130837537;
 			
 			// aapt resource value: 0x7f020022
-			public const int nurse_ = 2130837538;
+			public const int nurse = 2130837538;
 			
 			// aapt resource value: 0x7f020023
-			public const int peer = 2130837539;
+			public const int nurse_ = 2130837539;
 			
 			// aapt resource value: 0x7f020024
-			public const int save = 2130837540;
+			public const int peer = 2130837540;
 			
 			// aapt resource value: 0x7f020025
-			public const int save_detail = 2130837541;
+			public const int rightarrow = 2130837541;
 			
 			// aapt resource value: 0x7f020026
-			public const int save_detail2 = 2130837542;
+			public const int save = 2130837542;
 			
 			// aapt resource value: 0x7f020027
-			public const int splash = 2130837543;
+			public const int save_detail = 2130837543;
 			
 			// aapt resource value: 0x7f020028
-			public const int splash2 = 2130837544;
+			public const int save_detail2 = 2130837544;
 			
 			// aapt resource value: 0x7f020029
-			public const int Today = 2130837545;
+			public const int splash = 2130837545;
 			
 			// aapt resource value: 0x7f02002a
-			public const int today2 = 2130837546;
+			public const int splash2 = 2130837546;
+			
+			// aapt resource value: 0x7f02002b
+			public const int Today = 2130837547;
+			
+			// aapt resource value: 0x7f02002c
+			public const int today2 = 2130837548;
 			
 			static Drawable()
 			{
@@ -403,10 +409,13 @@ namespace YWWAC.Droid
 			public const int MenuView = 2130903057;
 			
 			// aapt resource value: 0x7f030012
-			public const int PersonalDetailsView = 2130903058;
+			public const int NewsView = 2130903058;
 			
 			// aapt resource value: 0x7f030013
-			public const int SplashScreen = 2130903059;
+			public const int PersonalDetailsView = 2130903059;
+			
+			// aapt resource value: 0x7f030014
+			public const int SplashScreen = 2130903060;
 			
 			static Layout()
 			{

@@ -8,7 +8,7 @@
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="New Exercise"
+        android:text="Record Exercise"
         local:MvxBind="Click AddNewExerciseCommand"
         android:background="#FFF27280"
         android:textColor="#FF000000" />

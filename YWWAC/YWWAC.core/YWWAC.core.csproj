@@ -71,6 +71,7 @@
     <Compile Include="ViewModels\MeasurementsViewModel.cs" />
     <Compile Include="ViewModels\AddFoodViewModel.cs" />
     <Compile Include="ViewModels\MenuViewModel.cs" />
+    <Compile Include="ViewModels\NewsViewModel.cs" />
     <Compile Include="ViewModels\PersonalDetailsViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
